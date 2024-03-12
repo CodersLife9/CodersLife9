@@ -1,0 +1,1362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nail Room</title>
+
+
+    <!-- Bootstrap cdn link for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap cdn link for css end -->
+
+    <!-- Bootstrap cdn link for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap cdn link for icons end -->
+
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts link end -->
+
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS link end -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="card_css/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="card_css/style.css" />
+    <!-- Slider CSS -->
+
+    <!-- Head logo -->
+    <link rel="shortcut icon" href="images/nav-logo-3-removebg-preview.png" type="image/x-icon">
+    <!-- Head logo -->
+
+</head>
+
+<body>
+
+
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader end -->
+
+
+    <!-- jquery cnd link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery cnd link end -->
+
+
+    <!-- nav -->
+    <section>
+
+        <div class="container">
+            <div class="nav-container navbar-fixed-top">
+                <nav>
+                    <ul class="mobile-nav">
+                        <li>
+                            <div class="menu-icon-container">
+                                <div class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="nailart.html" data-bs-toggle="dropdown">
+                                Catogarios </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="nailart.html#heading-mid"> Nails Art Methods</a>
+                                </li>
+                                <li> <a class="dropdown-item" href="#"> Nails Art &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="nailart.html#Space-nails">Space Art</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#Rainbow-nails">Rainbow Art</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#Skittles-nails">Skittles
+                                                Nails</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#bride-nails"> Brides Nails</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#barbie-nails">Barbie Nails</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="nailart.html#originated-nails-art">Nail Art
+                                        Originated</a></li>
+                                <li><a class="dropdown-item" href="nailart.html#kids-nailart"> Nail Art Kids </a></li>
+                            </ul>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li>
+                            <a href="manicure.html" id="nav-anchor">Manicure</a>
+                        </li>
+                        <li>
+                            <a href="pedicure.html" id="nav-anchor">Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="services.html" id="nav-anchor">Services</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" id="nav-anchor">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" id="nav-anchor">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-search"></a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- End of navigation menu items -->
+
+                <div class="search-container hide">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <div class="link-close"></div>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="mobile-search-container">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <span class="cancel-btn">Cancel</span>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- nav end -->
+
+
+    <!-- first content -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto" id="pedicure-first-content">
+                    <div class="heading">
+                        <h1 class="display-4">Do a Pedicure at Home</h1>
+                        <h5>With the right tools and tips, you can make your feet look fabulous at home.</h5>
+                    </div>
+                </div>
+                <!-- carousel -->
+
+                <div class="container_card-meni-pedi swiper">
+                    <div class="slide-container-meni-pedi">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card_carousel-meni-pedi swiper-slide">
+                                <div class="image-box">
+                                    <a href="#pd-s-content-1"><img src="images/Pedicure (1).jpg" alt="" /></a>
+                                </div>
+                                <div class="profile-details">
+                                    <div class="name-job">
+                                        <h3 class="name">Luxury Pedicure</h3>
+                                        <h4 class="job"><a href="#pd-s-content-1">Learn more <i
+                                                    class="bi bi-chevron-right"></i></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_carousel-meni-pedi swiper-slide">
+                                <div class="image-box">
+                                    <a href="#pd-s-content-2"> <img src="images/Pedicure (2).jpg" alt="" /></a>
+                                </div>
+                                <div class="profile-details">
+                                    <div class="name-job">
+                                        <h3 class="name">Basic Pedicure</h3>
+                                        <h4 class="job"><a href="#pd-s-content-2">Learn more <i
+                                                    class="bi bi-chevron-right"></i></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_carousel-meni-pedi swiper-slide  ">
+                                <div class="image-box">
+                                    <a href="#pd-s-content-3"><img src="images/Pedicure (3).jpg" alt="" /></a>
+                                </div>
+                                <div class="profile-details">
+                                    <div class="name-job">
+                                        <h3 class="name">Medical Pedicure</h3>
+                                        <h4 class="job"><a href="#pd-s-content-3">Learn more <i
+                                                    class="bi bi-chevron-right"></i></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+                <!-- carousel end -->
+            </div>
+            <div class="row">
+                <div class="col-lg-8 text-center mt-5 mb-3">
+                    <h1 class="display-4" id="heading-mid">Now no need Spa. <br> Do a Pedicure at home.</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 overflow-y-auto" style="height: 1000px;">
+                        <div class="row">
+                            <div class="pd-second-method-top-heading">
+                                <h3>First Method</h3>
+                                <h1>Soaking and Scrubbing Your Feet</h1>
+                            </div>
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 1</h4>
+                                </div>
+                                <p>
+                                    <b>(Soak your feet in warm water and Epsom salt for at least 10 minutes.)</b> <br>
+                                    Fill a foot spa or basin with warm water and about 1 cup (236.6 g) of Epsom salt.
+                                    Soaking your
+                                    feet is an important part of a pedicure as the warm water can help soften your skin
+                                    and get rid
+                                    of dead skin cells. Try not to soak them for longer than 20 minutes (you don’t want
+                                    to be
+                                    working with wrinkly feet).
+                                <ul>
+                                    <li>Test the water’s temperature by dipping a toe in before putting your entire foot
+                                        in the
+                                        bath.</li>
+                                    <li>Epsom salt is an excellent addition to your foot bath because it helps reduce
+                                        inflammation
+                                        and soothe aching muscles.</li>
+                                    <li>Try adding a few drops of essential oils to your bath for a spa-like touch.
+                                        Peppermint,
+                                        lemon, or tea tree oils are great choices.</li>
+                                    <li>If you don’t have Epsom salt, no worries! A bubble bath or moisturizing soap can
+                                        soften and
+                                        clean your feet just as well.</li>
+                                    <li>Don’t have a foot bath or large basin? Fill your bathtub with enough water to
+                                        cover your
+                                        feet.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m1-s1.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 2</h4>
+                                    <p>
+                                        <b>(
+                                            Use a pumice stone to scrub your feet while they’re wet.)</b> <br>
+                                        A pumice stone is a light, porous volcanic rock used to remove dead skin cells
+                                        and calluses.
+                                        Simply hold the stone up to your foot and quickly move it back and forth. Work
+                                        in 1 in (2.5
+                                        cm) large areas at a time for the best results. Apply steady pressure, but don’t
+                                        push so
+                                        hard that it hurts.
+                                    <ul>
+                                        <li>If you don’t have a pumice stone, try using a foot file to get the same
+                                            benefits.</li>
+                                        <li>Most foot files have 2 sides, coarse and fine. Use the coarse side to loosen
+                                            dead skin,
+                                            and then use the fine side to smooth over the filed area.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m1-s2.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 3</h4>
+                                    <p>
+                                        <b>(Apply a foot scrub to the top and bottom of your feet.)</b> <br>
+                                        Squeeze or scoop a quarter-size amount of foot scrub into your palm, press it
+                                        between both
+                                        hands, and then rub your hands over your feet. Use small, circular motions to
+                                        exfoliate and
+                                        remove any leftover dead skin cells.
+                                    <ul>
+                                        <li>Foot scrubs come in all types of fragrances, so pick one that helps you
+                                            relax the</li>
+                                        <li>If you don’t have a foot scrub, try making your own out of ingredients in
+                                            your pantry.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m1-s3.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 4</h4>
+                                    <p>
+                                        <b>(Rinse and wipe the scrub off your feet, and then dry them.)</b> <br>
+                                        After you’ve massaged and scrubbed your feet, dunk them back into your basin.
+                                        Use a
+                                        washcloth to wipe off the scrub. When the scrub is completely gone, dry your
+                                        feet with a
+                                        towel and wash your hands with soap and water.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m1-s4.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="pd-second-method-top-heading">
+                                <h3>Second Method</h3>
+                                <h1>Trimming and Filing Your Nails</h1>
+                            </div>
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 1</h4>
+                                    <p>
+                                        <b>(Cut and shape your toenails with nail clippers and a nail file.)</b> <br>
+                                        Snip your toenails straight across using the clippers and try not to cut them
+                                        too short, as
+                                        this helps prevents hangnails and ingrown toenails.[5] Angle the nail file at
+                                        the corners of
+                                        your nail to round them, or file them straight across for a squarer look.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m2-s1.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 2</h4>
+                                    <p>
+                                        <b>(Apply a cuticle oil and push your cuticles back with a cuticle tool)</b>
+                                        <br>
+                                        Cuticle oil helps soften the skin around your nail, so it’s easier to press
+                                        back. Rub the
+                                        oil around the base of your nail, and then press your cuticles back gently,
+                                        following the
+                                        angle of the tool.
+                                    <ul>
+                                        <li>Read the instructions on your cuticle oil to see how much product to use on
+                                            each nail.
+                                            Typically, it’s about 1 drop.</li>
+                                        <li>If you don’t have cuticle oil or balm, try using honey as an alternative.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m2-s2.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-second-method-heading">
+                                    <h4>Step 3</h4>
+                                    <p>
+                                        <b>(Apply foot cream to soften and moisturize your feet.)</b> <br>
+                                        Squeeze a quarter-size amount of cream into your hands. Then, rub the lotion
+                                        into each foot
+                                        until it’s gone. This will help nourish your feet, leaving them smooth and soft.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m2-s3.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row">
+                            <div class="pd-third-method-top-heading">
+                                <h3>Third Method</h3>
+                                <h1>Painting Your Nails</h1>
+                            </div>
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-third-method-heading">
+                                    <h4>Step 1</h4>
+                                    <p>
+                                        <b>(Place your toes in toe separators so it’s easier to paint them.)</b> <br>
+                                        Toe separators are pieces of plastic or foam that space out your toes. Wearing
+                                        them isn’t
+                                        necessary, but it can help you get a clean and even coat of nail polish on each
+                                        toe. It’s
+                                        also especially helpful if your toes naturally curl in.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m3-s1.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-third-method-heading">
+                                    <h4>Step 2</h4>
+                                    <p>
+                                        <b>(Paint your nails with a clear base coat to protect your natural nail.)</b>
+                                        <br>
+                                        A base coat can help your polish last longer and prevents your nail from
+                                        staining. Apply a
+                                        thin layer of polish to each nail. Start at the cuticle, and work your way up
+                                        the nail with
+                                        even, vertical brush strokes. Let dry for about 2 minutes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m3-s2.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-third-method-heading">
+                                    <h4>Step 3</h4>
+                                    <p>
+                                        <b>(Paint your nails with at least 2 coats of nail polish.)</b> <br>
+                                        Pick out your favorite color or something that matches what you’re wearing.
+                                        Paint your toes
+                                        as you did with the base coat using thin layers, but wait at least 15 minutes
+                                        for each coat
+                                        to dry.
+                                    <ul>
+                                        <li>The more coats of nail polish you have, the more saturated the color will
+                                            be.</li>
+                                        <li>If you don’t let the polish dry between coats, your pedicure could become
+                                            clumpy or
+                                            streaky.</li>
+                                        <li>Try painting each nail a different bright color for a bold, playful look.
+                                        </li>
+                                        <li>Consider only painting the tips of your toenails to do a classic French
+                                            pedicure.</li>
+                                        <li>Opt for a natural shade of pink or brown if you don’t want to draw attention
+                                            to your
+                                            feet.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m3-s3.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-third-method-heading">
+                                    <h4>Step 4</h4>
+                                    <p>
+                                        <b>(Apply a top coat for a beautiful shine)</b> <br>
+                                        Once your base color is completely dry (wait at least 30 minutes after the final
+                                        coat),
+                                        finish off your pedicure with a top coat. This final layer locks in your hard
+                                        work and
+                                        protects the polish from chipping. Use the same technique as before, and wait
+                                        around 15
+                                        minutes for it to dry.
+                                    <ul>
+                                        <li>Fast drying top coats are great when you’re in a pinch and don’t have time
+                                            to wait for
+                                            your pedicure to dry.</li>
+                                        <li>Holographic top coats add a layer of sparkle to your polish and look best
+                                            over solid
+                                            colors.</li>
+                                        <li>Matte top coats cancel out a nail polish’s shine for a more natural look.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/pd-m3-s4.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="pd-third-method-heading">
+                                    <h4>Step 5</h4>
+                                    <p>
+                                        <b>(Remove the toe separators and rock your awesome pedi!)</b> <br>
+                                        Check to make sure the polish is completely dry by tapping the edge of a nail
+                                        with the tip
+                                        of your finger. You're good to go if it feels firm, cool, and dry. Now, grab
+                                        your sandals
+                                        and show off your amazing work!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto pb-5">
+                                <img src="images/pd-m3-s5.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <div class="text-center" id="pd-small-content">
+                            <h1>Contact Here </h1>
+                            <p>
+                                If you have any queries please contact us.
+                            </p>
+                        </div>
+                        <div class="pd-input-field my-4">
+                            <form>
+                                <div class="input-group">
+                                    <input type="email" class="form-control p-2" placeholder="Enter your email..."
+                                        aria-label="Enter your email..." aria-describedby="button-addon2">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Contact
+                                        us</button>
+                                </div>
+                            </form>
+                        </div>
+                        <img src="images/about-us.gif"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                        <div class="Public Reviewes">
+                            <div class="review-container">
+                                <div class="review">
+                                    <img src="images/Wajahat.png" alt="User 1" class="profile-picture">
+                                    <p class="review-text">"Exceptional pedicure service! Skilled technicians, clean
+                                        facilities, and a variety of spa options. Walked out feeling refreshed and
+                                        polished. Highly recommend for a soothing pampering session!"</p>
+                                    <div class="rating">Rating: ⭐⭐⭐⭐⭐ 5/5</div>
+                                </div>
+                                <div class="review">
+                                    <img src="images/roohullah.jpg" alt="User 1" class="profile-picture">
+                                    <p class="review-text">"Stunning nails that make a statement."</p>
+                                    <div class="rating">Rating: ⭐⭐⭐ 5/3</div>
+                                </div>
+
+                                <div class="review">
+                                    <img src="images/hamza.png" alt="User 2" class="profile-picture">
+                                    <p class="review-text">"Nail Room transforms nails into masterpieces! Diverse
+                                        designs, helpful tutorials. The go-to for vibrant and stylish nail expressions."
+                                    </p>
+                                    <div class="rating">Rating : ⭐⭐⭐⭐ 5/4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- first content -->
+
+
+    <!-- luxury Pedicure -->
+    <section>
+        <div class="container" id="pd-s-content-1">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Luxury Pedicure</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 300px;">
+                        <div class="para">
+                            <p>
+                                A luxury pedicure is an indulgent and pampering treatment that goes beyond the basic
+                                foot care routine. Here's a comprehensive step-by-step method for providing a luxurious
+                                pedicure:
+                            <h6 class="my-5 fw-bold">Materials Needed:</h6>
+                            <ol>
+                                <li>
+                                    Basin or foot spa
+                                </li>
+                                <li>
+                                    Warm water
+                                </li>
+                                <li>
+                                    Epsom salt or luxurious foot soak
+                                </li>
+                                <li>
+                                    Towel
+                                </li>
+                                <li>
+                                    Soft music or relaxation playlist
+                                </li>
+                                <li>
+                                    Aromatherapy oils or scented candles
+                                </li>
+                                <li>
+                                    Cuticle oil
+                                </li>
+                                <li>
+                                    Cuticle remover
+                                </li>
+                                <li>
+                                    Exfoliating scrub
+                                </li>
+                                <li>
+                                    Pumice stone or foot file
+                                </li>
+                                <li>
+                                    Foot mask or moisturizing foot cream
+                                </li>
+                                <li>
+                                    Warm towels
+                                </li>
+                                <li>
+                                    Nail clippers
+                                </li>
+                                <li>
+                                    Cuticle pusher
+                                </li>
+                                <li>
+                                    Nail file and buffer
+                                </li>
+                                <li>
+                                    Base coat, nail polish, and top coat
+                                </li>
+                                <li>
+                                    Massage oil or cream
+                                </li>
+                                <li>
+                                    Hot stones or warm massage tools (optional)
+                                </li>
+                                <li>
+                                    Relaxing massage chair (optional)
+                                </li>
+                            </ol>
+                            <h6 class="my-5 fw-bold">Procedure:</h6>
+                            <ol>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Welcome and Consultation:</h6>
+                                    <ul>
+                                        <li>
+                                            Welcome the client and discuss any specific preferences, concerns, or
+                                            medical conditions.
+                                        </li>
+                                        <li>
+                                            Confirm the desired nail shape, polish color, and any additional add-ons.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Set Up a Relaxing Atmosphere:</h6>
+                                    <ul>
+                                        <li>
+                                            Play soft music or a relaxation playlist to create a serene ambiance.
+                                        </li>
+                                        <li>
+                                            Light aromatherapy candles or use essential oils for a pleasant scent.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Foot Soak:</h6>
+                                    <ul>
+                                        <li>
+                                            Fill the basin or foot spa with warm water and add Epsom salt or a luxurious
+                                            foot soak.
+                                        </li>
+                                        <li>
+                                            Invite the client to soak their feet for 10-15 minutes to relax the muscles
+                                            and soften the skin.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Nail and Cuticle Care:</h6>
+                                    <ul>
+                                        <li>
+                                            Trim and shape the toenails according to the client's preference.
+                                        </li>
+                                        <li>
+                                            Apply cuticle oil and a cuticle remover to soften and push back the cuticles
+                                            gently.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Exfoliation:</h6>
+                                    <ul>
+                                        <li>
+                                            Use an exfoliating scrub to remove dead skin cells, focusing on the feet and
+                                            lower legs.
+                                        </li>
+                                        <li>
+                                            Pay extra attention to rough areas, such as heels and the sides of the feet.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Callus Removal:</h6>
+                                    <ul>
+                                        <li>
+                                            Address calluses using a pumice stone or foot file, ensuring a gentle and
+                                            effective treatment.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Foot Mask or Moisturizing Cream:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a hydrating foot mask or luxurious moisturizing foot cream.
+                                        </li>
+                                        <li>
+                                            Wrap the feet in warm towels and let the product penetrate for a few
+                                            minutes.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Massage:</h6>
+                                    <ul>
+                                        <li>
+                                            Use massage oil or cream to perform a relaxing foot and lower leg massage.
+                                        </li>
+                                        <li>
+                                            Incorporate hot stones or warm massage tools for an extra touch of luxury.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Final Touches:</h6>
+                                    <ul>
+                                        <li>
+                                            Wipe off excess oil or cream and ensure the nails are dry.
+                                        </li>
+                                        <li>
+                                            Provide the client with aftercare advice and tips for maintaining their
+                                            luxurious pedicure.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Offer Post-Treatment Relaxation:</h6>
+                                    <ul>
+                                        <li>
+                                            Allow the client to relax in a comfortable space or massage chair for a few
+                                            moments after the treatment.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <span class="my-5 ">A luxury pedicure aims to provide a holistic and indulgent experience,
+                                combining effective foot care with relaxation and aesthetic appeal. Tailor the
+                                experience to meet the client's preferences for the most satisfying results.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-5">
+                    <img src="images/Pedicure (1).jpg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- luxury Pedicure end -->
+
+
+    <!-- Basic Pedicure -->
+    <section>
+        <div class="container" id="pd-s-content-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Basic Pedicure</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 300px;">
+                        <div class="para">
+                            <p>
+                                Certainly! A basic pedicure is a simple and effective way to maintain foot health and
+                                grooming. Here's a step-by-step method for performing a basic pedicure:
+                            <h6 class="my-5 fw-bold">Materials Needed:</h6>
+                            <ol>
+                                <li>
+                                    Basin or foot spa
+                                </li>
+                                <li>
+                                    Warm water
+                                </li>
+                                <li>
+                                    Mild soap or foot soak
+                                </li>
+                                <li>
+                                    Towel
+                                </li>
+                                <li>
+                                    Nail clippers
+                                </li>
+                                <li>
+                                    Nail file
+                                </li>
+                                <li>
+                                    Cuticle pusher
+                                </li>
+                                <li>
+                                    Pumice stone or foot file
+                                </li>
+                                <li>
+                                    Moisturizing lotion
+                                </li>
+                                <li>
+                                    Base coat, nail polish, and top coat (optional)
+                                </li>
+                            </ol>
+                            <h6 class="my-5 fw-bold">Procedure:</h6>
+                            <ol>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Welcome and Consultation:</h6>
+                                    <ul>
+                                        <li>
+                                            Greet the client and discuss any specific preferences or concerns.
+                                        </li>
+                                        <li>
+                                            Confirm the desired nail shape and polish color.
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Set up:</h6>
+                                    <ul>
+                                        <li>
+                                            Fill the basin or foot spa with warm water and add a mild soap or foot soak.
+                                        </li>
+                                        <li>
+                                            Invite the client to soak their feet for 5-10 minutes to soften the skin.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Nail and Cuticle Care:</h6>
+                                    <ul>
+                                        <li>
+                                            Trim the toenails straight across using nail clippers.
+                                        </li>
+                                        <li>
+                                            Shape the nails using a nail file, rounding the edges slightly.
+                                        </li>
+                                        <li>
+                                            Apply cuticle oil and gently push back the cuticles with a cuticle pusher.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Exfoliation:</h6>
+                                    <ul>
+                                        <li>
+                                            Use a pumice stone or foot file to exfoliate rough areas, such as the heels
+                                            and sides of the feet.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Moisturize:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a moisturizing lotion to the feet and lower legs.
+                                        </li>
+                                        <li>
+                                            Massage the lotion in, paying attention to the cuticles and any dry or rough
+                                            areas.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Nail Polish (Optional):</h6>
+                                    <ul>
+                                        <li>
+                                            Cleanse the nails using a nail cleanser or rubbing alcohol.
+                                        </li>
+                                        <li>
+                                            Apply a clear base coat for protection (optional).
+                                        </li>
+                                        <li>
+                                            Apply the chosen nail polish color, allowing it to dry between coats.
+                                        </li>
+                                        <li>
+                                            Finish with a clear top coat for shine and durability (optional).
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Final Touches:</h6>
+                                    <ul>
+                                        <li>
+                                            Wipe off excess lotion and ensure the nails are dry.
+                                        </li>
+                                        <li>
+                                            Offer a moment for the client to relax before putting on shoes.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Aftercare Advice:</h6>
+                                    <ul>
+                                        <li>
+                                            Provide the client with aftercare advice, such as wearing comfortable shoes
+                                            and moisturizing regularly.
+                                        </li>
+                            </ol>
+                            <span class="my-5 ">A basic pedicure is a quick and straightforward way to maintain foot
+                                hygiene and keep the toenails well-groomed. Tailor the procedure to the client's
+                                preferences for a satisfying experience.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-5">
+                    <img src="images/Pedicure (2).jpg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- Basic Pedicure end -->
+
+
+
+    <!-- Medical Pedicure -->
+    <section>
+        <div class="container" id="pd-s-content-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Medical Pedicure</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 300px;">
+                        <div class="para">
+                            <p>
+                                A medical pedicure, often performed by a podiatrist or foot care specialist, involves
+                                addressing specific foot health concerns. It goes beyond cosmetic grooming and is
+                                focused on maintaining or improving foot health. Always ensure that this procedure is
+                                performed by a licensed podiatrist or medical professional. Here's a general guideline:
+                            <h6 class="my-5 fw-bold">Materials Needed:</h6>
+                            <ol>
+                                <li>
+                                    Basin or foot spa
+                                </li>
+                                <li>
+                                    Warm water
+                                </li>
+                                <li>
+                                    Antiseptic solution or medicated foot soak
+                                </li>
+                                <li>
+                                    Towel
+                                </li>
+                                <li>
+                                    Sterilized instruments (nail clippers, cuticle nippers, and nail file)
+                                </li>
+                                <li>
+                                    Sterilized pumice stone or foot file
+                                </li>
+                                <li>
+                                    Prescription-strength antifungal or antibacterial products (if prescribed)
+                                </li>
+                                <li>
+                                    Cuticle oil
+                                </li>
+                                <li>
+                                    Sterile gloves
+                                </li>
+                                <li>
+                                    Non-latex disposable gloves
+                                </li>
+                                <li>
+                                    Base coat, nail polish, and top coat (optional)
+                                </li>
+                            </ol>
+                            <h6 class="my-5 fw-bold">Procedure:</h6>
+                            <ol>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Patient Assessment:</h6>
+                                    <ul>
+                                        <li>
+                                            Consult with the patient to understand their specific foot health concerns.
+                                        </li>
+                                        <li>
+                                            Obtain a detailed medical history, allergies, and information about
+                                            prescribed medications.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Set Up a Sterile Environment:</h6>
+                                    <ul>
+                                        <li>
+                                            Ensure all tools and instruments are sterilized using autoclaving or an
+                                            approved sterilization method.
+                                        </li>
+                                        <li>
+                                            Wear sterile gloves during the entire procedure.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Foot Soak:</h6>
+                                    <ul>
+                                        <li>
+                                            Fill the basin or foot spa with warm water and a medicated foot soak or
+                                            antiseptic solution.
+                                        </li>
+                                        <li>
+                                            Soak the patient's feet for 10-15 minutes to soften the skin and nails.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Nail and Cuticle Care:</h6>
+                                    <ul>
+                                        <li>
+                                            Trim and shape the toenails according to the patient's health needs.
+                                        </li>
+                                        <li>
+                                            Apply cuticle oil and gently push back the cuticles with a sterilized
+                                            cuticle pusher.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Exfoliation:</h6>
+                                    <ul>
+                                        <li>
+                                            Use a sterile pumice stone or foot file to exfoliate dead skin cells and
+                                            rough areas, focusing on the heels and sides of the feet.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Address Specific Foot Issues:</h6>
+                                    <ul>
+                                        <li>
+                                            Address specific foot conditions, such as ingrown toenails, fungal
+                                            infections, or other dermatological issues, as per the podiatrist's
+                                            guidance.
+                                        </li>
+                                        <li>
+                                            Apply prescription-strength antifungal or antibacterial products if
+                                            prescribed.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Moisturize and Hydrate:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a medical-grade foot cream to moisturize the feet, focusing on any dry
+                                            or compromised areas.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Nail Polish (Optional):</h6>
+                                    <ul>
+                                        <li>
+                                            Cleanse the nails using a nail cleanser.
+                                        </li>
+                                        <li>
+                                            Apply a clear base coat, nail polish, and top coat if the patient desires
+                                            and their foot health allows.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Final Touches:</h6>
+                                    <ul>
+                                        <li>
+                                            Wipe off excess cream and ensure the nails are dry.
+                                        </li>
+                                        <li>
+                                            Provide the patient with personalized foot care advice.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <span class="my-5 ">A medical pedicure aims to address specific foot health concerns, and
+                                the procedures should be tailored to the patient's unique needs. Always prioritize the
+                                patient's well-being and follow established medical guidelines.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-5">
+                    <img src="images/Pedicure (3).jpg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- Medical Pedicure end -->
+
+
+    <!-- Footer -->
+    <section>
+        <footer class="footer">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="services.html">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">online booking</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online booking</h4>
+                        <ul>
+                            <li><a href="nailart.html">nails art</a></li>
+                            <li><a href="manicure.html">manicure</a></li>
+                            <li><a href="pedicure.html">pedicure</a></li>
+                            <li><a href="#">packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer end -->
+
+
+
+    <!-- Bootstrap cdn link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn link for js end -->
+
+    <!-- jQuery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery cdn link end-->
+
+
+    <!-- Javascript link  -->
+    <script src="main.js"></script>
+    <!-- Javascript link end  -->
+
+    <script src="card_js/swiper-bundle.min.js"></script>
+    <script src="card_js/script.js"></script>
+
+
+    <!-- navbar scroll change color -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+                    $(".navbar-fixed-top").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                }
+                else {
+                    $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+                }
+            });
+        });
+    </script>
+    <!-- navbar scroll change color -->
+
+</body>
+
+</html>

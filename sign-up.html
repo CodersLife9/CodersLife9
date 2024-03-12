@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nail Room</title>
+
+
+    <!-- Bootstrap cdn link for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap cdn link for css end -->
+
+    <!-- Bootstrap cdn link for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap cdn link for icons end -->
+
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts link end -->
+
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS link end -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="card_css/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="card_css/style.css" />
+    <!-- Slider CSS -->
+
+    <!-- Head logo -->
+    <link rel="shortcut icon" href="images/nav-logo-3-removebg-preview.png" type="image/x-icon">
+    <!-- Head logo -->
+
+</head>
+
+<body>
+
+
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader end -->
+
+    <!-- jquery cnd link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery cnd link end -->
+
+
+
+    <!-- nav -->
+    <section>
+
+        <div class="container">
+            <div class="nav-container navbar-fixed-top">
+                <nav>
+                    <ul class="mobile-nav">
+                        <li>
+                            <div class="menu-icon-container">
+                                <div class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="nailart.html" data-bs-toggle="dropdown">
+                                Catogarios </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="nailart.html#heading-mid"> Nails Art Methods</a>
+                                </li>
+                                <li> <a class="dropdown-item" href="#"> Nails Art &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="nailart.html#Space-nails">Space Art</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#Rainbow-nails">Rainbow Art</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#Skittles-nails">Skittles
+                                                Nails</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#bride-nails"> Brides Nails</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#barbie-nails">Barbie Nails</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="nailart.html#originated-nails-art">Nail Art
+                                        Originated</a></li>
+                                <li><a class="dropdown-item" href="nailart.html#kids-nailart"> Nail Art Kids </a></li>
+                            </ul>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li>
+                            <a href="manicure.html" id="nav-anchor">Manicure</a>
+                        </li>
+                        <li>
+                            <a href="pedicure.html" id="nav-anchor">Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="services.html" id="nav-anchor">Services</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" id="nav-anchor">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" id="nav-anchor">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-search"></a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- End of navigation menu items -->
+
+                <div class="search-container hide">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <div class="link-close"></div>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="mobile-search-container">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <span class="cancel-btn">Cancel</span>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- nav end -->
+
+
+    <!-- sign up -->
+    <section>
+        <div class="container">
+            <div class="sign-up-top-heading mx-auto">
+                <h1>Create Your NailRoom ID</h1>
+                <p>Create a New Account & Get free Membership.</p>
+            </div>
+
+            <form>
+
+                <div class="row">
+
+                    <div class="col-lg-6 mx-auto">
+                        <div class="form-floating mb-5">
+                            <div class="row g-2">
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <input type="Firstname" required class="form-control border-1 border-dark"
+                                            id="floatingInputGrid" placeholder="name@example.com">
+                                        <label for="floatingInputGrid">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <input type="lastname" required class="form-control border-1 border-dark"
+                                            id="floatingInputGrid" placeholder="name@example.com">
+                                        <label for="floatingInputGrid">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <label for="floatingSelect"><span class="fw-bold">Country / Region</span></label>
+                        <select class="form-select form-select-lg py-3 mb-3 border-1 border-dark "
+                            aria-label=".form-select-lg example">
+                            <option value="1" selected>Germany</option>
+                            <option value="2">United kingdom</option>
+                            <option value="3">United State</option>
+                            <option value="4">Turkiye</option>
+                            <option value="4">Finland</option>
+                            <option value="4">Sweden</option>
+                        </select>
+
+                        <div class="form-floating mb-3">
+                            <input type="date" required class="form-control border-1 border-dark" id="floatingInput"
+                                placeholder="Birthday">
+                            <label for="floatingInput">Birthday</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="form-floating mb-3">
+                            <input type="email" required class="form-control border-1 border-dark mt-3"
+                                id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" required class="form-control border-1 border-dark mt-5"
+                                id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" required class="form-control border-1 border-dark mt-3 mb-3"
+                                id="floating-ComfirmPassword" placeholder="Comfirm-Password">
+                            <label for="floatingPassword">Comfirm Password</label>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <select class="form-select form-select-lg py-3 mt-3 mb-3 border-1 border-dark "
+                            aria-label=".form-select-lg example">
+                            <option value="1" selected>+49 (Germany)</option>
+                            <option value="2">+47 (United kingdom)</option>
+                            <option value="3">+1 (United State)</option>
+                            <option value="4">(Turkiye)</option>
+                            <option value="4">(Finland)</option>
+                            <option value="4">(Sweden)</option>
+                        </select>
+                        <div class="form-floating">
+                            <input type="number" required class="form-control border-1 border-dark mt-3 mb-3"
+                                id="floatingnumber" placeholder="phonenumber">
+                            <label for="floatingPassword">Phone number</label>
+                            <p>Be sure to enter a phone number you can always access. It will be used to verify your
+                                identity any time you sign in on a new device or web browser. Messaging or data rates
+                                may
+                                apply.</p>
+                            <div class="d-flex flex-row">
+                                <h6>Verify with:</h6>
+                                <div class="form-check">
+                                    <input class="form-check-input mx-3 border-1 border-dark" type="radio"
+                                        name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">Text message
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input mx-3 border-1 border-dark" required type="radio"
+                                        name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Phone call
+                                    </label>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="form-check my-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                <h5>Announcements</h5>
+                                <small> Receive emails and communications including announcements, marketing,
+                                    recommendations,
+                                    and about our products, services and Membership.</small>
+                            </label>
+                        </div>
+                        <div class="form-check my-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <h5>Terms & Conditions</h5>
+                            <small>
+                                Users must be 18 or older.
+                                Content copyright belongs to the website.
+                                No unauthorized reproduction of designs.
+                                User-generated content may be shared.
+                                Payment terms and refund policy apply.
+                            </small>
+                            <label class="form-check-label" for="flexCheckChecked">
+                            </label>
+                        </div>
+                        <div class="btn d-flex justify-content-center my-4">
+                            <button class="btn btn-lg btn-primary">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+
+
+        </div>
+    </section>
+    <!-- sign up -->
+
+
+
+    <!-- Footer -->
+    <section>
+        <footer class="footer">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="services.html">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">online booking</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online booking</h4>
+                        <ul>
+                            <li><a href="nailart.html">nails art</a></li>
+                            <li><a href="manicure.html">manicure</a></li>
+                            <li><a href="pedicure.html">pedicure</a></li>
+                            <li><a href="#">packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer end -->
+
+
+
+
+    <!-- Bootstrap cdn link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn link for js end -->
+
+    <!-- jQuery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery cdn link end-->
+
+
+    <!-- Javascript link  -->
+    <script src="main.js"></script>
+    <!-- Javascript link end  -->
+
+    <script src="card_js/swiper-bundle.min.js"></script>
+    <script src="card_js/script.js"></script>
+
+
+    <!-- navbar scroll change color -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+                    $(".navbar-fixed-top").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                }
+                else {
+                    $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+                }
+            });
+        });
+    </script>
+    <!-- navbar scroll change color -->
+
+
+</body>
+
+</html>

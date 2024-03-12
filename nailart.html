@@ -1,0 +1,1590 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nail Room</title>
+
+    <!-- Bootstrap cdn link for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap cdn link for css end -->
+
+    <!-- Bootstrap cdn link for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap cdn link for icons end -->
+
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- google fonts link end -->
+
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS link end -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="card_css/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="card_css/style.css" />
+    <!-- Slider CSS -->
+
+
+    <!-- Head logo -->
+    <link rel="shortcut icon" href="images/nav-logo-3-removebg-preview.png" type="image/x-icon">
+    <!-- Head logo -->
+
+
+</head>
+
+<body>
+
+
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader end -->
+
+    <!-- jquery cnd link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery cnd link end -->
+
+
+
+    <!-- nav -->
+    <section>
+
+        <div class="container">
+            <div class="nav-container navbar-fixed-top">
+                <nav>
+                    <ul class="mobile-nav">
+                        <li>
+                            <div class="menu-icon-container">
+                                <div class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="nailart.html" data-bs-toggle="dropdown">
+                                Catogarios </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="nailart.html#heading-mid"> Nails Art Methods</a>
+                                </li>
+                                <li> <a class="dropdown-item" href="#"> Nails Art &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="nailart.html#Space-nails">Space Art</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#Rainbow-nails">Rainbow Art</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#Skittles-nails">Skittles
+                                                Nails</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#bride-nails"> Brides Nails</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#barbie-nails">Barbie Nails</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="nailart.html#originated-nails-art">Nail Art
+                                        Originated</a></li>
+                                <li><a class="dropdown-item" href="nailart.html#kids-nailart"> Nail Art Kids </a></li>
+                            </ul>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li>
+                            <a href="manicure.html" id="nav-anchor">Manicure</a>
+                        </li>
+                        <li>
+                            <a href="pedicure.html" id="nav-anchor">Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="services.html" id="nav-anchor">Services</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" id="nav-anchor">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" id="nav-anchor">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-search"></a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- End of navigation menu items -->
+
+                <div class="search-container hide">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <div class="link-close"></div>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="mobile-search-container">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <span class="cancel-btn">Cancel</span>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- nav end -->
+
+    <!-- first content -->
+    <section>
+        <div class="container" id="nailart">
+            <div class="row">
+                <div class="col-lg-8 mx-auto" id="nailart-first-content">
+                    <div class="heading">
+                        <h1 class="display-4">We have best Nails design.</h1>
+                        <h5>We would love to show you how we do that.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- carousel -->
+            <div class="container_card swiper">
+                <div class="slide-container">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="#s-content-1"><img src="images/rainbow-art.webp" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">space Art</h3>
+                                    <h4 class="job"><a href="#s-content-1">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="#s-content-2"> <img src="images/design-.jpg" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Rainbow Art</h3>
+                                    <h4 class="job"><a href="#s-content-2">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide  ">
+                            <div class="image-box">
+                                <a href="#s-content-2"><img src="images/multi-color.webp" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Skittles Nails</h3>
+                                    <h4 class="job"><a href="#s-content-2">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="#s-content-4"><img src="images/design-2.png" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Bride Nails</h3>
+                                    <h4 class="job"><a href="#s-content-4">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- carousel -->
+        </div>
+    </section>
+    <!-- first content end -->
+
+
+    <!-- second content -->
+    <section>
+        <div class="container" id="nailart">
+            <div class="row">
+                <div class="col-lg-8 text-center mt-5 mb-3">
+                    <h1 class="display-4" id="heading-mid">Easy way to do Nails Art.</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 overflow-y-auto" style="height: 1000px;">
+                        <div class="na-first-method-top-heading">
+                            <h3>First Method</h3>
+                            <h1>Prepare your nails</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-first-method-heading">
+                                    <h4>Step 1</h4>
+                                </div>
+                                <p>
+                                    <b>(Remove old nail polish)</b> <br>
+                                    Say goodbye to chipped nails with these effortless methods for removing old nail
+                                    polish. Start
+                                    by
+                                    saturating a cotton ball with acetone or non-acetone nail polish remover. Press
+                                    it
+                                    onto the
+                                    nail, allowing it to soak for a few seconds. Gently rub in a circular motion to
+                                    lift
+                                    off the
+                                    polish. For stubborn colors or glitter, try a nail polish remover with added
+                                    moisturizers. Your
+                                    nails will thank you for this quick and easy refresh!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-step-1.jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-first-method-heading">
+                                    <h4>Step 2</h4>
+                                </div>
+                                <p>
+                                    <b>(Trim and file your nails.)</b> <br>
+                                    Maintaining well-groomed nails is a simple yet essential aspect of personal
+                                    hygiene.
+                                    Begin by
+                                    soaking fingertips in warm, soapy water to soften the nails. Use a quality pair
+                                    of
+                                    nail clippers
+                                    to trim nails straight across, rounding the tips in a gentle curve. Avoid
+                                    cutting
+                                    too close to
+                                    the skin to prevent discomfort or ingrown nails. Follow up with a nail file to
+                                    shape
+                                    and smooth
+                                    the edges, moving in one direction to prevent splitting. Finish with a
+                                    moisturizing
+                                    lotion for
+                                    healthy, polished nails. This quick routine ensures neat, tidy nails with
+                                    minimal
+                                    effort.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-step-2.jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-first-method-heading">
+                                    <h4>Step 3</h4>
+                                </div>
+                                <p>
+                                    <b>(Apply a basecoat.)</b> <br>
+                                    Achieving flawless nails begins with a perfect basecoat. Start by cleansing
+                                    nails of
+                                    oils and
+                                    residue, ensuring a smooth canvas. Choose a quality basecoat, matching it to
+                                    your
+                                    nail type
+                                    (strengthening, hydrating, or ridge-filling). Apply a thin layer, avoiding
+                                    cuticles
+                                    and skin.
+                                    Allow it to dry before proceeding with your favorite nail color. This simple
+                                    step
+                                    not only
+                                    enhances polish adherence but also protects your natural nails. With a
+                                    well-executed
+                                    basecoat,
+                                    you're on your way to a long-lasting and professional-looking manicure.
+                                    Prioritize
+                                    nail health
+                                    and aesthetics with this quick and effective technique.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-step-3.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="na-second-method-top-heading">
+                                <h3>Second Method</h3>
+                                <h1>Beginner Designs</h1>
+                            </div>
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-second-method-heading">
+                                    <h4>Step 1</h4>
+                                </div>
+                                <p>
+                                    <b>(Paint just the tip of your nail a different color).</b><br>
+                                    Expressing yourself through vibrant nail colors is easy with these simple steps.
+                                    Start by
+                                    shaping and cleaning your nails for a polished canvas. Apply a clear base coat
+                                    to
+                                    protect your
+                                    nails and enhance color adhesion. When choosing your desired hue, consider the
+                                    occasion and your
+                                    style. For a smooth application, use thin layers of polish, allowing each coat
+                                    to
+                                    dry before
+                                    adding the next. Seal the color with a glossy top coat for a lasting,
+                                    salon-worthy
+                                    finish.
+                                    Embrace creativity and experiment with nail art or trendy designs to make your
+                                    fingertips a
+                                    stylish statement!"
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-m2-s1.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-second-method-heading">
+                                    <h4>Step 2</h4>
+                                </div>
+                                <p>
+                                    <b>(Paint just the tip of your nail a different color.)</b> <br>
+                                    Enhance your nail game effortlessly by adding a touch of glamour with jewels or
+                                    stickers. Begin
+                                    by selecting your preferred design, ensuring it complements your style. After
+                                    applying a base
+                                    coat, carefully place the jewel or sticker on your nail, gently pressing to
+                                    secure
+                                    it. Seal the
+                                    deal with a clear top coat to ensure longevity and a glossy finish. Experiment
+                                    with
+                                    different
+                                    placements and designs to create a personalized, eye-catching look. This quick
+                                    and
+                                    easy
+                                    technique adds an instant pop of elegance to your nails, making them a stylish
+                                    accessory for any
+                                    occasion.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-m2-s2.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-second-method-heading">
+                                    <h4>Step 3</h4>
+                                </div>
+                                <p>
+                                    <b>(Go with a glitter effect.)</b> <br>
+                                    Add a touch of glamour to your nails with a dazzling glitter effect! Begin by
+                                    applying a clear
+                                    base coat to ensure a smooth canvas. Choose your favorite glitter nail polish
+                                    and
+                                    gently apply
+                                    it in thin layers, allowing each coat to dry before adding the next. For a
+                                    subtle
+                                    look, focus on
+                                    the tips or create a statement by covering the entire nail. Seal the sparkle
+                                    with a
+                                    top coat for
+                                    long-lasting shine. Experiment with different colors and textures to express
+                                    your
+                                    unique style.
+                                    Elevate your nail game with this easy and glamorous glitter nail technique!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-m2-s3.jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="na-third-method-top-heading">
+                                <h3>Third Method</h3>
+                                <h1>Blended Color Designs</h1>
+                            </div>
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-third-method-heading">
+                                    <h4>Step 1</h4>
+                                </div>
+                                <p>
+                                    <b>(Make a swirl)</b> <br>
+                                    Creating a captivating swirl on your nails is a delightful way to add a touch of
+                                    artistic flair
+                                    to your manicure. Begin by applying a base coat to ensure a smooth canvas. Once
+                                    dry,
+                                    select two
+                                    or more nail polish colors of your choice. Using a thin nail art brush or
+                                    toothpick,
+                                    gently draw
+                                    a swirl pattern on each nail. Experiment with different color combinations and
+                                    designs to
+                                    achieve a mesmerizing effect. Allow the swirls to dry thoroughly before applying
+                                    a
+                                    top coat for
+                                    a polished finish. This simple yet stylish technique transforms your nails into
+                                    a
+                                    unique and
+                                    eye-catching masterpiece.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-m3-s1.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-third-method-heading">
+                                    <h4>Step 2</h4>
+                                </div>
+                                <p>
+                                    <b>Try gradient (ombre) nails.</b> <br>
+                                    Ombre looks best with colors in the same color family, like purples and blues.
+                                    For
+                                    this look,
+                                    you'll need three colors: a dark color, a medium color, and a light one.
+                                    Apply a coat of the darkest color to your nails and allow it to dry.
+                                    Dip a makeup sponge into a dark colored polish (only a dab of polish is needed
+                                    on
+                                    the sponge)
+                                    and apply the medium color to the tips of your nails, starting at the tip and
+                                    moving
+                                    down to
+                                    create a fading effect.
+                                    With a clean makeup sponge, dab the lightest color onto your nails in the same
+                                    fashion, starting
+                                    from the tip and fading downward toward the base of your nails. The resulting
+                                    look
+                                    should be
+                                    bright-tipped nails that fade downward toward the darkest base coat color.
+                                    Apply a clear top coat while the polishes are still wet to more completely smear
+                                    the
+                                    colors
+                                    together.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-m3-s2.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-third-method-heading">
+                                    <h4>Step 3</h4>
+                                </div>
+                                <p>
+                                    <b>(Create a watercolor effect)</b> <br>
+                                    In this case you'll need two or more colors: white, and another color or two of
+                                    your
+                                    choice.
+                                    Apply the white polish as the base coat.
+                                    Before the base coat dries, use a toothpick or other implement to place dots in
+                                    another color or
+                                    two on top of the base coat.
+                                    Dip a large brush in acetone and dab it onto the drops of polish. Use the
+                                    acetone
+                                    and the brush
+                                    to thin and smear the dots over the white base coat. If you're successful,
+                                    you'll
+                                    have an
+                                    impressionistic Monet-inspired design.
+                                    When the watercolor design is dry, apply a clear top coat.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <img src="images/na-m3-s3.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="na-third-method-heading">
+                                    <h4>Step 4</h4>
+                                </div>
+                                <p>
+                                    <b>(Make acid-washed nails)</b> <br>
+                                    o simulate the look of acid-washed jeans, use blue and white polishes.
+                                    Use the blue color for the base coat. Allow it to dry and apply a clear topcoat.
+                                    When these coats have dried, paint a single layer of white polish over the
+                                    basecoat.
+                                    Dip a makeup sponge in acetone and use it to lightly rub away and thin out the
+                                    white
+                                    polish.
+                                    Stop when enough of the blue layer shows through to create an acid-washed look.
+                                    When the acid wash design has dried, finish with a clear topcoat.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mb-5">
+                                <img src="images/na-m3-s4.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <div class="text-center" id="pd-small-content">
+                            <h1>Contact Here </h1>
+                            <p>
+                                If you have any queries please contact us.
+                            </p>
+                        </div>
+                        <div class="pd-input-field my-4">
+                            <form>
+                                <div class="input-group">
+                                    <input type="email" class="form-control p-2" placeholder="Enter your email..."
+                                        aria-label="Enter your email..." aria-describedby="button-addon2">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Contact
+                                        us</button>
+                                </div>
+                            </form>
+                        </div>
+                        <img src="images/about-us.gif"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                        <div class="Public Reviewes">
+                            <div class="review-container">
+                                <div class="review">
+                                    <img src="images/Wajahat.png" alt="User 1" class="profile-picture">
+                                    <p class="review-text">"Exceptional pedicure service! Skilled technicians, clean
+                                        facilities, and a variety of spa options. Walked out feeling refreshed and
+                                        polished. Highly recommend for a soothing pampering session!"</p>
+                                    <div class="rating">Rating: ⭐⭐⭐⭐⭐ 5/5</div>
+                                </div>
+                                <div class="review">
+                                    <img src="images/roohullah.jpg" alt="User 1" class="profile-picture">
+                                    <p class="review-text">"Stunning nails that make a statement."</p>
+                                    <div class="rating">Rating: ⭐⭐⭐ 5/3</div>
+                                </div>
+
+                                <div class="review">
+                                    <img src="images/hamza.png" alt="User 2" class="profile-picture">
+                                    <p class="review-text">"Nail Room transforms nails into masterpieces! Diverse
+                                        designs, helpful tutorials. The go-to for vibrant and stylish nail expressions."
+                                    </p>
+                                    <div class="rating">Rating : ⭐⭐⭐⭐ 5/4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- second content end -->
+
+
+
+
+    <!-- Space Art -->
+    <section id="Space-nails">
+        <div class="container" id="s-content-1">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Space Art</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 380px;">
+                        <div class="para">
+                            <p>
+                                Creating space-themed nail art can be a fun and creative process. Here's a step-by-step
+                                method to achieve space nails:
+                            <ol>
+                                <li>
+                                    <span class="head-bold">Prepare Your Nails:</span> <br>Creating space-themed nail
+                                    art can be a fun and creative process. Here's a step-by-step method to achieve space
+                                    nails:
+                                </li>
+                                <li>
+                                    <span class="head-bold">Base Coat:</span><br>Apply a clear base coat to protect your
+                                    nails and provide a smooth surface for the design.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Apply a Dark Background:</span><br> Use a dark-colored nail
+                                    polish (preferably black or deep blue) as the background for the space effect. Allow
+                                    it to dry completely.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Sponge Nebula Effect:</span><br> Dab a small makeup sponge
+                                    in various cosmic colors like purples, blues, and pinks. Gently sponge the colors
+                                    onto your nails to create a nebula effect. Blend the colors for a seamless look.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Add Glitter:</span><br>Apply a layer of glitter polish or
+                                    loose glitter to mimic stars and enhance the celestial vibe. Concentrate the glitter
+                                    toward the tips for a galaxy effect.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Create Planets:</span><br> Using a fine nail art brush or
+                                    dotting tool, add small circles in different sizes and colors to represent planets.
+                                    You can use metallic shades for a realistic touch.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Draw Stars and Constellations:</span><br>Use a white or
+                                    silver nail polish to draw stars, constellations, and swirls to emulate the cosmic
+                                    atmosphere.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Top Coat:</span><br>Seal your space nail art with a clear
+                                    top coat to protect the design and add shine.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Optional: 3D Elements:</span><br>For an extra touch,
+                                    consider adding 3D elements like small rhinestones or tiny metal decals to represent
+                                    asteroids or spaceships.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Clean Edges:</span><br>Use a small brush dipped in nail
+                                    polish remover to clean up any excess polish and refine the edges.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Final Touch:</span><br>Once your space nail art is
+                                    completely dry, moisturize your cuticles and hands for a polished finish.
+                                </li>
+                            </ol>
+                            Get creative and experiment with different colors and designs to personalize your
+                            space-themed nail art. Enjoy flaunting your out-of-this-world manicure!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-5">
+                    <img src="images/rainbow-art.webp"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- space art end -->
+
+
+    <!-- Rainbow art -->
+    <section id="Rainbow-nails">
+        <div class="container" id="s-content-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Rainbow Art</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 380px;">
+                        <div class="para">
+                            <p>
+                                Rainbow Nail Art Method:
+                            <ol>
+                                <li>
+                                    <span class="head-bold">Prep Nails:</span><br>Clean and shape nails. Apply a base
+                                    coat for protection.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Color Pallete</span><br>Select rainbow colors (red, orange,
+                                    yellow, green, blue, indigo, violet).
+                                </li>
+                                <li>
+                                    <span class="head-bold">Paint Each Nail:</span><br>Apply the base color on each
+                                    nail.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Striping Tape (Optional):</span><br>Use striping tape to
+                                    create clean lines for each color.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Rainbow Stripes:</span><br>Apply colors in order, side by
+                                    side, or in a gradient pattern.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Blend Colors:</span><br>Use a sponge or brush to blend
+                                    colors where they meet for a seamless transition.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Dotting Tool (Optional):</span><br>Add rainbow dots for a
+                                    playful touch.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Top Coat:</span><br>Seal the design with a clear top coat
+                                    for a glossy finish and lasting protection.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Clean Edges</span><br>Use a cleanup brush dipped in polish
+                                    remover for neat edges.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Dry Compeletly</span><br>Allow nails to dry thoroughly
+                                    before any activities.
+                                </li>
+                            </ol>
+                            Express your vibrant style with these stunning rainbow nails!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-5">
+                    <img src="images/design-.jpg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rainbow art end -->
+
+    <!-- Skittles Nails -->
+    <section id="Skittles-nails">
+        <div class="container" id="s-content-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Skittles Nails</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 450px;">
+                        <div class="para">
+                            <p>
+                                <span class="head-bold">Skittles Nails Tutorial: Colorful DIY Nail Art</span><br><span
+                                    class="head-bold">Materials
+                                    Needed:</span><br>
+                            <ol>
+                                <li>Base coat</li>
+                                <li>Various colored nail polishes (Skittles colors)</li>
+                                <li>Nail dotting tools or toothpicks</li>
+                                <li>Clear top coat</li>
+                            </ol>
+                            <span class="head-bold">Steps:</span><br>
+                            <ol>
+                                <li>
+                                    <span class="head-bold">Prepare Your Nails:</span><br>Start with clean, dry nails.
+                                    Apply a base coat
+                                    to protect your natural nails.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Base Color:</span><br>Choose a different base color for each
+                                    nail, mimicking
+                                    the vibrant colors of Skittles candies. Apply two coats and let them dry.
+
+
+                                </li>
+                                <li>
+                                    <span class="head-bold">Create the Skittles Design:</span><br>Using a dotting tool
+                                    or toothpick,
+                                    carefully create small circles or dots on each nail, using different colors for each
+                                    dot. These represent the Skittles candy colors.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Experiment with Patterns:</span><br>Get creative! Try
+                                    different patterns like
+                                    lines, swirls, or random arrangements for a playful and dynamic look.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Allow to Dry:</span><br>Ensure the dots are completely dry
+                                    before moving on to
+                                    the next step.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Top Coat:</span><br>Seal your design with a clear top coat.
+                                    This adds shine
+                                    and helps to protect your Skittles nail art.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Clean Up:</span><br>Use a small brush dipped in nail polish
+                                    remover to clean
+                                    up any excess polish around your nails.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Enjoy Your Colorful Nails:</span><br>Admire your vibrant and
+                                    playful Skittles
+                                    nails. Showcase your unique style and enjoy the burst of colors on your fingertips!
+                                </li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-5">
+                    <img src="images/multi-color.webp"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skittles Nails end -->
+
+    <!-- bride Nails  -->
+    <section id="bride-nails">
+        <div class="container" id="s-content-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Bride Nails</h1>
+                    </div>
+                    <div class="overflow-y-auto" style="height: 320px;">
+                        <div class="para">
+                            <p>
+                                <span class="head-bold">Bridal Nail Preparation:</span><br>
+                            <ol>
+                                <li>
+                                    <span class="head-bold">Cleanse:</span><br>Begin with a gentle hand wash and nail
+                                    cleaning.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Shape:</span><br>Trim and shape nails to desired length and
+                                    form.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Soak:</span><br>Submerge hands in warm, soapy water for a
+                                    relaxing soak.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Cuticle Care:</span><br>Gently push back cuticles using a
+                                    cuticle pusher.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Exfoliate:</span><br>Apply a mild scrub to hands and nails
+                                    for smoothness.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Moisturize:</span><br>Hydrate hands with a nourishing hand
+                                    cream.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Base Coat:</span><br>Apply a clear base coat for protection.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Design:</span><br>Choose and create the desired nail art for
+                                    a bridal touch.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Color:</span><br>Apply the chosen nail polish color,
+                                    ensuring precision.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Detailing:</span><br>Add intricate details or embellishments
+                                    as desired.
+                                </li>`
+                                <li>
+                                    <span class="head-bold">Top Coat:</span><br>Seal the design with a high-quality,
+                                    long-lasting top coat.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Dry:</span><br>Allow nails to fully dry for a flawless
+                                    finish.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Final Touch:</span><br>Apply cuticle oil for added hydration
+                                    and shine.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Relax:</span><br>Enjoy the beautiful, pampered bridal nails
+                                    with confidence on the special day!"
+                                </li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-5">
+                    <img src="images/design-2.png"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bride Nails end -->
+
+    <!-- Barbie art -->
+    <section id="barbie-nails">
+        <div class="container" id="s-content-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Barbie Nails</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 320px;">
+                        <div class="para">
+                            <p>
+                                Barbie Nail Art Method:
+                            <ol>
+                                <li>
+                                    <span class="head-bold">Prep Nails:</span><br>Clean and shape nails. Apply a base
+                                    coat for protection.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Color Pallete</span><br>Select rainbow colors (red, orange,
+                                    yellow, green, blue, indigo, violet).
+                                </li>
+                                <li>
+                                    <span class="head-bold">Paint Each Nail:</span><br>Apply the base color on each
+                                    nail.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Striping Tape (Optional):</span><br>Use striping tape to
+                                    create clean lines for each color.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Rainbow Stripes:</span><br>Apply colors in order, side by
+                                    side, or in a gradient pattern.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Blend Colors:</span><br>Use a sponge or brush to blend
+                                    colors where they meet for a seamless transition.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Dotting Tool (Optional):</span><br>Add rainbow dots for a
+                                    playful touch.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Top Coat:</span><br>Seal the design with a clear top coat
+                                    for a glossy finish and lasting protection.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Clean Edges</span><br>Use a cleanup brush dipped in polish
+                                    remover for neat edges.
+                                </li>
+                                <li>
+                                    <span class="head-bold">Dry Compeletly</span><br>Allow nails to dry thoroughly
+                                    before any activities.
+                                </li>
+                            </ol>
+                            Express your vibrant style with these stunning rainbow nails!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-5">
+                    <img src="images/barbie-nails.png"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>`
+            <hr>
+        </div>
+    </section>
+    <!-- Barbie art end -->
+
+
+    <!-- originated-nails-art -->
+    <section>
+        <div class="container" id="originated-nails-art">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-center mt-5 display-3">Nails Art Originated</h2>
+                <hr
+                    style="border: none; height: 3px; background-color: rgb(100, 22, 46); border-radius: 10px;width: 100%;">
+            </div>
+
+            <!-- Party Nails -->
+            <section>
+                <div class="container" id="party-nails">
+                    <h1 class="text-center display-3 mb-3 mt-5">Party Nails</h1>
+                    <div class="row mb-5">
+                        <div class="col-lg-6 mb-3">
+                            <div>
+                                <img src="images/design-1.WebP"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    style="border-radius: 20px 0 20px 0;" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 overflow-y-auto" style="height: 200px;">
+                            <div>
+                                <h3>Party nails art originated</h3>
+                                <p>
+                                    Nail art, including the concept of "party nails," has roots in various cultures,
+                                    making
+                                    it
+                                    challenging to pinpoint a specific country of origin. The practice of decorating
+                                    nails
+                                    for
+                                    aesthetic purposes has ancient origins, with evidence of nail adornment found in
+                                    different
+                                    civilizations throughout history.
+
+                                    In contemporary times, the modern nail art movement gained popularity in various
+                                    countries
+                                    simultaneously. However, one could argue that certain Asian countries, particularly
+                                    Japan,
+                                    played a significant role in popularizing intricate and detailed nail art designs.
+                                    <span class="fw-bold">Japanese</span> nail
+                                    artists are often credited for pushing the boundaries of creativity in nail
+                                    aesthetics,
+                                    introducing elaborate designs, 3D elements, and a wide array of colors.
+
+                                    As the global beauty and fashion industries have become more interconnected, nail
+                                    art
+                                    trends
+                                    from different countries have influenced each other. South Korea, for example, has
+                                    also
+                                    been
+                                    a
+                                    trendsetter in the beauty industry, including nail art, with innovative designs and
+                                    techniques
+                                    gaining international attention.
+
+                                    Ultimately, the evolution of nail art is a cross-cultural phenomenon, with
+                                    influences
+                                    from
+                                    various regions contributing to the diverse and creative world of nail aesthetics.
+                                    The
+                                    term
+                                    "party nails" specifically refers to vibrant and festive nail designs suitable for
+                                    celebratory
+                                    occasions, and its popularity has grown globally as people embrace the creativity
+                                    and
+                                    expression
+                                    that nail art brings to personal style.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Party Nails -->
+
+            <!-- Bride nails -->
+            <section>
+                <div class="container" id="bride-nails">
+                    <h1 class="text-center display-3 my-3">Bride Nails</h1>
+                    <div class="row mb-5">
+                        <div class="col-lg-6 mb-3">
+                            <div>
+                                <h3>Party Nails Art Originated</h3>
+                                <p>
+                                    Bridal nail art requires professionalism, experience, fantasy and excellent artist
+                                    skills of
+                                    the nail technician. The bridal nail art is made for a very special event in each
+                                    woman's
+                                    life, and therefore should be performed at a perfect level. Bridal nail art
+                                    composition
+                                    may
+                                    include many fashionable features and techniques, such as traditional <span
+                                        class="fw-bold">French</span> manicure and a special nail design. <br>
+                                    Nail technicians offer brides traditional and special nail designs. Certainly, they
+                                    come
+                                    up
+                                    with a great variety of ideas to make the nail art original and attractive. The most
+                                    popular
+                                    nail art is a traditional French. Many years ago, this style was invented for every
+                                    day
+                                    life. It is suitable for everyday clothes; it is modern and very charming. It is
+                                    very
+                                    famous
+                                    in western countries where pastel and white colors are especially suitable for the
+                                    white
+                                    wedding dress.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="images/design-2.png"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    style="border-radius: 20px 0 20px 0;" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Bride nails -->
+
+            <!-- crystal nails -->
+            <section>
+                <div class="container" id="crystal-nails">
+                    <h1 class="text-center display-3 my-3">Crystal Art</h1>
+                    <div class="row mb-5">
+                        <div class="col-lg-6 mb-3">
+                            <div>
+                                <img src="images/design-3.jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    style="border-radius: 20px 0 20px 0;" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <h3>Crystal Nails Art Originated </h3>
+                                <p>
+                                    Crystal nail art, also known as <span class="fw-bold">Swarovski crystal</span> nail
+                                    art,
+                                    originated in <span class="fw-bold"></span>. The trend gained popularity in the
+                                    early
+                                    2000s and quickly
+                                    spread to other parts of the world. <span class="fw-bold">Japanese</span> nail
+                                    artists
+                                    played a significant role in introducing and popularizing intricate nail designs
+                                    using
+                                    Swarovski crystals. These crystals, known for their precision-cut and high-quality
+                                    sparkle, became a favorite embellishment for nail technicians and enthusiasts
+                                    seeking to
+                                    add a touch of glamour to nail art. The <span class="fw-bold">Japanese</span> nail
+                                    art
+                                    scene is known for its creativity, attention to detail, and innovative use of
+                                    various
+                                    materials, contributing to the global popularity of crystal nail art as a form of
+                                    self-expression and fashion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- crystal nails -->
+
+            <!-- Flowers Nails -->
+            <section>
+                <div class="container" id="crystal-nails">
+                    <h1 class="text-center display-3 my-3">Flower Art</h1>
+                    <div class="row mb-5">
+                        <div class="col-lg-6 mb-3 overflow-y-auto" style="height: 280px;">
+                            <div>
+                                <h3>Flower Nails Art Originated </h3>
+                                <p>
+                                    Flower nail art, like many forms of nail artistry, doesn't have a specific country
+                                    of
+                                    origin. Nail art in general has a long history and has been practiced in various
+                                    forms
+                                    in different cultures around the world. The tradition of decorating nails dates back
+                                    thousands of years, with evidence of nail adornment found in ancient <Span
+                                        class="fw-bold">China</Span>, <span class="fw-bold">Egypt,</span> and
+                                    <span class="fw-bold">Babylon.</span>
+                                    In contemporary times, nail art has become a global phenomenon, with influences and
+                                    trends originating from various cultures. Flower nail art, specifically, gained
+                                    popularity as a fashionable and creative form of self-expression. Nail artists and
+                                    enthusiasts worldwide incorporate floral designs into their work, drawing
+                                    inspiration
+                                    from nature, cultural symbols, and personal creativity.
+
+                                    It's challenging to attribute the origin of flower nail art to a specific country,
+                                    as it
+                                    has evolved and been embraced by diverse communities across the globe. The art form
+                                    has
+                                    transcended cultural boundaries, and different countries and regions contribute
+                                    their
+                                    unique styles and techniques to the vibrant world of nail art.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="images/design-4.jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    style="border-radius: 20px 0 20px 0;" alt="">
+                            </div>
+                        </div>x
+                    </div>
+                </div>
+            </section>
+            <!-- Flowers Nails -->
+
+            <!-- Flowers Nails -->
+            <section>
+                <div class="container" id="crystal-nails">
+                    <h1 class="text-center display-3 my-3">Flame Art</h1>
+                    <div class="row mb-5">
+                        <div class="col-lg-6">
+                            <div>
+                                <img src="images/design-5.jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    style="border-radius: 20px 0 20px 0;" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <div>
+                                <h3>Flame Nails Art Originated </h3>
+                                <p>
+                                    Flame nails art, like many trends in the realm of nail design, does not have a <span
+                                        class="fw-bold">specific
+                                        country</span> of origin. Nail art is a dynamic and creative form of
+                                    self-expression
+                                    that has
+                                    evolved globally, with various styles and techniques emerging from different
+                                    cultures
+                                    and influences. Flame nails, characterized by vibrant and dynamic designs resembling
+                                    flames, have gained popularity in the broader context of contemporary nail art. <br>
+                                    Nail art trends often emerge and spread through social media platforms, fashion
+                                    shows,
+                                    and the influence of nail technicians and artists worldwide. While certain styles
+                                    may be
+                                    associated with specific regions or cultural movements, it's challenging to pinpoint
+                                    the
+                                    exact country of origin for flame nails art. This form of self-expression is a
+                                    product
+                                    of the diverse and interconnected world of beauty and fashion, drawing inspiration
+                                    from
+                                    various sources and evolving through the creativity of individuals globally.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Flowers Nails -->
+            <hr style="border: none; height: 3px; background-color: rgb(100, 22, 46); border-radius: 10px;">
+        </div>
+    </section>
+    <!-- originated-nails-art -->
+
+
+    <!-- Nails for kids art -->
+    <section>
+        <div class="container" id="kids-nailart">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-center display-3 mt-5">Nails Arts For Kids</h2>
+                <hr style="border: none; height: 3px; background-color: rgb(100, 22, 46); border-radius: 10px;">
+            </div>
+            <!-- carousel  -->
+            <div class="my-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <img src="images/kids-design-2.jpg"
+                                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                            style="border-radius: 50px 50px;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h1>Three Bare Bears</h1>
+                                    <p>
+                                        Bear nails art for kids is a whimsical and delightful trend in the realm of
+                                        children's nail design, capturing the imagination and bringing a playful touch
+                                        to little fingertips. This adorable nail art often features cute bear faces, paw
+                                        prints, or even full bear illustrations, rendered in vibrant and child-friendly
+                                        colors. The designs can be customized to suit individual preferences, allowing
+                                        kids to express their creativity and personality. Bear nails art for kids is not
+                                        only visually appealing but also serves as a fun and engaging activity, making
+                                        nail care an enjoyable experience for the little ones. Child-safe, non-toxic
+                                        nail polishes are commonly used to ensure the health and safety of young nails.
+                                        Parents and nail technicians alike can collaborate to create a range of
+                                        bear-themed designs that resonate with children's love for cuddly creatures.
+                                        This playful nail art trend not only adds a touch of whimsy to a child's
+                                        grooming routine but also encourages self-expression and creativity from a young
+                                        age. As bear nails art gains popularity, it becomes a delightful way for kids to
+                                        showcase their unique style and interests while fostering a positive association
+                                        with self-care and personal expression.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="images/Kids-Design-1.jpg"
+                                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                        style="border-radius: 50px 50px;" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <h1>Pokemon</h1>
+                                        <p>
+                                            Pokemon nails art is a delightful and imaginative way for kids to express
+                                            their love for the iconic Pokemon franchise while adding a playful touch to
+                                            their manicures. This trend has gained immense popularity among young
+                                            enthusiasts who want to showcase their favorite Pokemon characters right at
+                                            their fingertips. The vibrant and colorful world of Pokemon offers endless
+                                            possibilities for creative nail designs. Pikachu, Charmander, Bulbasaur, and
+                                            other beloved Pokemon can come to life through careful detailing and a
+                                            rainbow of nail polish shades. Kids can opt for Pikachu-inspired yellow
+                                            nails, adorned with tiny lightning is as unique as the child wearing it. Not
+                                            only does Pokemon nails art provide a fun and engaging activity for kids,
+                                            but it also allows them to showcase their favorite Pokemon companions in a
+                                            personalized and creative way. Parents and guardians can join in on the fun,
+                                            encouraging creativity and bonding over shared interests while fostering an
+                                            early appreciation for self-expression and artistic endeavors. Whether it's
+                                            for a special occasion, a Pokemon-themed party, or simply for the joy of
+                                            having colorful and playful nails, Pokemon nails art for kids is a
+                                            delightful and imaginative trend that brings the magical world of Pokemon to
+                                            their fingertips.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="images/Kids-Design-3.jpg"
+                                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                        style="border-radius: 50px 50px;" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <h1>Cute Pepou</h1>
+                                        <p>
+                                            Pepou nails art for kids has become a delightful and whimsical trend,
+                                            captivating young hearts with its charming designs and vibrant colors. Pepou
+                                            nails, often associated with playful and cute characters, transform little
+                                            fingertips into miniature canvases bursting with creativity. From adorable
+                                            animals to enchanting fantasy creatures, Pepou nails art allows children to
+                                            express their imagination and showcase their favorite characters right on
+                                            their fingertips. The designs typically incorporate cheerful colors,
+                                            glitter, and tiny details that bring these characters to life. This
+                                            kid-friendly nail art not only sparks creativity but also promotes fine
+                                            motor skills as children watch in awe as their tiny nails become works of
+                                            art. Parents and caregivers can engage in this bonding activity with their
+                                            little ones, creating a fun and memorable experience that transcends the
+                                            ordinary routine of nail care. With non-toxic and easily washable nail
+                                            polishes, Pepou nails art ensures a safe and enjoyable way for children to
+                                            experiment with self-expression while embracing the joy and innocence of
+                                            childhood. Whether it's a whimsical unicorn, a friendly dinosaur, or a cute
+                                            smiley face, Pepou nails art adds a touch of enchantment to the world of
+                                            kid's fashion and self-care, fostering a sense of creativity and
+                                            individuality from an early age.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- carousel  -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <footer class="footer">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="services.html">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">online booking</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online booking</h4>
+                        <ul>
+                            <li><a href="nailart.html">nails art</a></li>
+                            <li><a href="manicure.html">manicure</a></li>
+                            <li><a href="pedicure.html">pedicure</a></li>
+                            <li><a href="#">packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer end -->
+
+
+
+
+    <!-- Bootstrap cdn link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn link for js end -->
+
+    <!-- jQuery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery cdn link end-->
+
+
+    <!-- Javascript link  -->
+    <script src="main.js"></script>
+    <!-- Javascript link end  -->
+
+    <script src="card_js/swiper-bundle.min.js"></script>
+    <script src="card_js/script.js"></script>
+
+
+    <!-- navbar scroll change color -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+                    $(".navbar-fixed-top").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                }
+                else {
+                    $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+                }
+            });
+        });
+    </script>
+    <!-- navbar scroll change color -->
+
+</body>
+
+</html>

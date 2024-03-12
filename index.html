@@ -1,0 +1,1012 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nail Room</title>
+
+
+    <!-- Bootstrap cdn link for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap cdn link for css end -->
+
+    <!-- Bootstrap cdn link for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap cdn link for icons end -->
+
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts link end -->
+
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS link end -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="card_css/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="card_css/style.css" />
+    <!-- Slider CSS -->
+
+
+    <!-- Head logo -->
+    <link rel="shortcut icon" href="images/nav-logo-3-removebg-preview.png" type="image/x-icon">
+    <!-- Head logo -->
+
+
+</head>
+
+<body>
+
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader end -->
+
+    <!-- jquery cnd link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery cnd link end -->
+
+
+    <!-- nav -->
+    <section>
+
+        <div class="container">
+            <div class="nav-container navbar-fixed-top">
+                <nav>
+                    <ul class="mobile-nav">
+                        <li>
+                            <div class="menu-icon-container">
+                                <div class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="nailart.html" data-bs-toggle="dropdown">
+                                Catogarios </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="nailart.html#heading-mid"> Nails Art Methods</a>
+                                </li>
+                                <li> <a class="dropdown-item" href="#"> Nails Art &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="nailart.html#Space-nails">Space Art</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#Rainbow-nails">Rainbow Art</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#Skittles-nails">Skittles
+                                                Nails</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#bride-nails"> Brides Nails</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#barbie-nails">Barbie Nails</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="nailart.html#originated-nails-art">Nail Art
+                                        Originated</a></li>
+                                <li><a class="dropdown-item" href="nailart.html#kids-nailart"> Nail Art Kids </a></li>
+                            </ul>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li>
+                            <a href="manicure.html" id="nav-anchor">Manicure</a>
+                        </li>
+                        <li>
+                            <a href="pedicure.html" id="nav-anchor">Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="services.html" id="nav-anchor">Services</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" id="nav-anchor">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" id="nav-anchor">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-search"></a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- End of navigation menu items -->
+
+                <div class="search-container hide">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <div class="link-close"></div>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="mobile-search-container">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <span class="cancel-btn">Cancel</span>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- nav end -->
+
+
+
+    <!-- first content  -->
+    <section>
+        <div class="container-fluid pb-4" id="main-content">
+            <div class="row">
+                <div class="col-lg-12 ps-5 mx-auto">
+                    <div class="first-content-heading">
+                        <div>
+                            <h4>Nail care</h4>
+                        </div>
+                        <div>
+                            <h1 class="display-1" data-text:="ENJOY THE BEST <br>
+                                NAIL CARE IN UK">ENJOY THE BEST<br>
+                                NAIL CARE IN UK</h1>
+                        </div>
+                    </div>
+                    <div class="first-content-button">
+                        <h5 class="my-5">Make your nails perfect right now!</h5>
+                        <button class="btn btn-lg py-3">Book an Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- first content end -->
+
+
+
+    <!-- second content -->
+    <section>
+        <div class="container-fluid" id="second-content">
+            <div class="second-content-heading text-center">
+                <div>
+                    <h4>Our services</h4>
+                </div>
+                <div>
+                    <h1 class="py-3">FEATURED NAIL SERVICES</h1>
+                </div>
+                <div>
+                    <h5>All kinds of procedures for your hands and feet.</h5>
+                </div>
+            </div>
+
+            <!-- carousel -->
+
+            <div class="container_card swiper">
+                <div class="slide-container">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="pedicure.html"><img src="images/card-carousel-1.png" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Pedicure</h3>
+                                    <h4 class="job"><a href="pedicure.html">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="nailart.html"> <img src="images/card-carousel-2.png" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Nail Arts</h3>
+                                    <h4 class="job"><a href="nailart.html">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide  ">
+                            <div class="image-box">
+                                <a href="manicure.html"><img src="images/card-carousel-3.png" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Manicure</h3>
+                                    <h4 class="job"><a href="manicure.html">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="manicure.html"><img src="images/card-carousel-4.png" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Nail Polish</h3>
+                                    <h4 class="job"><a href="manicure.html">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_carousel swiper-slide">
+                            <div class="image-box">
+                                <a href="nailart.html"> <img src="images/card-carousel-7.png" alt="" /></a>
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Nails Trimming</h3>
+                                    <h4 class="job"><a href="nailart.html">Learn more <i
+                                                class="bi bi-chevron-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+            <!-- carousel end -->
+
+        </div>
+    </section>
+    <!-- second content end -->
+
+
+    <!-- third content -->
+    <section>
+        <div class="container-fluid" id="third-content">
+
+            <div class="row">
+
+                <div class="col-lg-5 py-3">
+                    <img src="images/content-3.png"
+                        class="img-fluid w-100 ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+                <div class="col-lg-7 pt-5 px-5 ">
+                    <h4>About us</h4>
+                    <h1 class="pb-3">Welcome to NailRoom</h1>
+                    <h6 class="pb-3">NailRoom is a perfect place to get high-quality nail care and spa services in a
+                        clean
+                        and welcoming atmosphere.</h6>
+                    <p>Our licensed nail artists are always aware of the latest trends and truly care about their
+                        clients.
+                        We also offer free Wi-Fi, relaxing music, and complimentary cookies and beverages to make your
+                        experience more enjoyable.</p>
+                    <div>
+                        <div class="icons-and-number d-flex flex-row mt-4">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div>
+                                <h6 class="px-2 pt-2">Contact us now!</h6>
+                                <a href="#" class="px-3 pb-5">+92 (1234) 567890</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- third content end -->
+
+
+    <!-- fourth content -->
+    <!-- pedicure -->
+    <section>
+        <div class="container my-5" id="fourth-content">
+            <div class="text-center">
+                <h1 class="display-1" style="font-family: 'Raleway', sans-serif">Mani & Pedi</h1>
+                <hr class="w-50 mx-auto">
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <div class="img-grid">
+                        <img src="images/card-6.png"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12 my-3">
+                            <h1>Luxury Pedicure</h1>
+                            <p>
+                                Indulge in opulence with our Luxury Pedicure, a lavish retreat for your feet. Immerse
+                                yourself in a pampering experience featuring exquisite exfoliation, a rejuvenating
+                                massage, and meticulous nail care. Revel in the ultimate relaxation as we elevate your
+                                pedicure to an unparalleled level of sophistication and comfort. Pure luxury for your
+                                soles.
+                            </p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="para">
+                                <img src="images/Pedicure (1).jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- pedicure -->
+
+    <!-- manicure -->
+    <section>
+        <div class="container my-5" id="fourth-content">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img-grid">
+                        <img src="images/medical-menicure.jpeg"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12 my-3">
+                            <h1>Medical Manicure</h1>
+                            <p>
+                                Experience the luxury of a medical manicure, where beauty meets health. Our skilled
+                                technicians not only enhance your nails' aesthetic appeal but also prioritize hygiene
+                                and well-being. Indulge in a pampering session that combines precision, safety, and
+                                style, leaving your hands looking and feeling revitalized. Elevate your manicure
+                                experience today.
+                            </p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div>
+                                <img src="images/medical-menicure(2).jpg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- manicure -->
+
+    <!-- fourth content end -->
+
+
+    <!-- fifth content -->
+    <!-- cinematic carousel -->
+    <section>
+        <div>
+            <h1>Nails Art</h1>
+        </div>
+        <div class="slider">
+            <!-- list Items -->
+            <div class="list">
+                <div class="item active">
+                    <img src="images/design-1.WebP">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Party Nails</h2>
+                        <p>
+                            Transform your nails into a vibrant celebration with our party nail art. Sparkling glitter,
+                            bold colors, and playful designs come together for a festive and eye-catching manicure that
+                            steals the spotlight.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-2.png">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Bridge Nails</h2>
+                        <p>
+                            Bridge nails are sturdy and reliable fasteners designed for construction and carpentry
+                            projects. With a robust design, these nails provide excellent structural support, ensuring
+                            durability and stability in various applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-3.jpg">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>crystal Arts</h2>
+                        <p>
+                            Transform your nails into dazzling masterpieces with Crystal Nail Art. Immerse yourself in
+                            the ethereal beauty of intricately placed crystals, adding a touch of glamour and
+                            sophistication to your fingertips.
+                            Embrace the beauty of nature with our exquisite flower nails art.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-4.jpg">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Flower Nail</h2>
+                        <p>
+                            Delicate petals and vibrant hues come together to create a stunning floral masterpiece,
+                            adding a touch of elegance to your fingertips.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-5.jpg">
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Flame Nails</h2>
+                        <p>
+                            Flame nails feature fiery, vibrant designs resembling flickering flames. Using bold colors
+                            like red, orange, and yellow, these dynamic and edgy nail art creations add a fierce and
+                            stylish statement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- button arrows -->
+            <div class="arrows">
+                <button id="next"><i class="bi bi-chevron-left"></i></button>
+                <button id="prev"><i class="bi bi-chevron-right"></i></button>
+            </div>
+            <!-- thumbnail -->
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="images/design-1.WebP">
+                    <div class="content">
+                        <a href="">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-2.png">
+                    <div class="content">
+                        <a href="">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-3.jpg">
+                    <div class="content">
+                        <a href="">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-4.jpg">
+                    <div class="content">
+                        <a href="">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/design-5.jpg">
+                    <div class="content">
+                        <a href="">Learn more <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fifth content end -->
+
+    <!-- sixth content -->
+    <section>
+        <div class="container" id="sixth-content">
+            <div class="row">
+                <div class="col-lg-6 mx-auto mt-4">
+                    <div class="head">
+                        <h1 class="display-2 text-center">Nails Care</h1>
+                    </div>
+                    <div class="para mb-5">
+                        <p style=" font-family: 'Raleway', sans-serif; color: rgb(145, 37, 71);">
+                            Nail care is an essential aspect of personal grooming that often goes overlooked. Our nails
+                            not only serve a practical purpose but also contribute to our overall appearance. Healthy,
+                            well-maintained nails can make a significant difference in one's self-esteem and confidence.
+                            In this article, we will explore the fundamentals of nail care, covering everything from
+                            basic maintenance to advanced tips for achieving stunning nails.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mx-auto mb-5">
+                        <div class="img">
+                            <img src="images/mixo-1.jpeg"
+                                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                alt="">
+                        </div>
+                        <div class="para my-4 overflow-y-auto" style="height: 200px;">
+                            <p style=" font-family: 'Raleway', sans-serif; color: rgb(25, 25, 84);">
+                                Basic Nail Care Routine:
+
+                                a. Regular Cleaning: Begin by cleaning your nails with a gentle nail brush and mild
+                                soap. This helps remove dirt, bacteria, and any remnants of nail polish.
+
+                                b. Trimming and Shaping: Trim your nails regularly to prevent breakage and maintain a
+                                neat appearance. Use a quality nail clipper to cut straight across and then round the
+                                tips in a gentle curve. File the edges to smoothen any rough spots.
+
+                                c. Moisturizing: Keep your cuticles and nails hydrated by applying a nourishing cuticle
+                                oil or cream. This helps prevent dryness and reduces the risk of painful hangnails.
+
+                                Healthy Habits for Stronger Nails:
+
+                                a. Balanced Diet: Your nails reflect your overall health. Ensure you have a balanced
+                                diet rich in vitamins, minerals, and protein. Foods like salmon, almonds, and leafy
+                                greens contribute to stronger, healthier nails.
+
+                                b. Hydration: Drink an adequate amount of water to maintain overall hydration. This not
+                                only benefits your nails but also improves the health of your skin and hair.
+
+                                c. Limit Harsh Chemical Exposure: Avoid exposing your nails to harsh chemicals, such as
+                                those found in cleaning products or acetone-based nail polish removers. Wear gloves when
+                                engaging in activities that involve chemical exposure.
+
+                                Choosing the Right Nail Products:
+
+                                a. Nail Polish Selection: Opt for high-quality nail polishes that are free from harmful
+                                chemicals like formaldehyde, toluene, and DBP. These can cause nail damage and
+                                negatively impact your overall nail health.
+
+                                b. Base and Top Coat: Always use a base coat before applying nail polish to prevent
+                                staining and enhance the longevity of your manicure. Additionally, a top coat adds shine
+                                and protects the polish from chipping.
+
+                                c. Avoiding Gel and Acrylic Overuse: While gel and acrylic nails can provide a
+                                long-lasting and polished look, excessive use can weaken the natural nails. Give your
+                                nails breaks between applications to allow them to breathe and recover.
+
+                                Professional Care:
+
+                                a. Regular Manicures and Pedicures: Treat yourself to professional manicures and
+                                pedicures to keep your nails in top shape. Professionals can provide expert care,
+                                ensuring your nails receive the attention they deserve.
+
+                                b. Consulting a Dermatologist: If you encounter persistent nail issues, such as
+                                discoloration, brittleness, or changes in shape, consult a dermatologist. These symptoms
+                                could indicate underlying health issues that require professional attention.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-6 my-1 overflow-y-auto" style="height: 140px;">
+                                <p style=" font-family: 'Raleway', sans-serif; color: rgb(25, 25, 84);">
+                                    Nail care is more than just a cosmetic routine – it's a self-care practice that
+                                    contributes to your overall well-being. By incorporating these tips into your nail
+                                    care routine, you'll not only achieve beautiful nails but also promote their health
+                                    and strength. Remember, healthy nails are a reflection of a healthy you. So, take
+                                    the time to pamper your nails and make them an essential part of your self-care
+                                    regimen.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 my-1">
+                                <img src="images/mixo-7.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-12 my-1">
+                                <div class="img-2">
+                                    <img src="images/mixo-3.jpeg"
+                                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sixth content end -->
+
+
+    <!-- seventh content -->
+    <section>
+        <div class="container" id="seventh-content">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="head">
+                        <h1>Relaxing atmosphere</h1>
+                    </div>
+                    <div class="para">
+                        <p>
+                            At Nail Room, we create a relaxing atmosphere where you can unwind and pamper yourself. Our
+                            salon is designed to provide a peaceful and comfortable environment for your manicure and
+                            pedicure experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto my-5 text-center">
+                    <div class="head">
+                        <h1 class="display-3">Professional Manicure & Pedicure Services</h1>
+                    </div>
+                    <div class="para">
+                        <p>
+                            Pamper yourself with our professional manicure and pedicure services. Book an appointment
+                            today!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img-grid">
+                        <img src="images/mixo-4.jpeg"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12 my-3">
+                            <p style="color: rgb(25, 25, 84); font-family: 'Raleway', sans-serif;">
+                                Indulge in luxury with our expert manicure and pedicure services. Treat your hands and
+                                feet to a pampering session, revitalizing your nails and skin. Our skilled technicians
+                                ensure meticulous care, leaving you with beautifully groomed hands and feet. Elevate
+                                your self-care routine and step into a world of beauty and relaxation.
+                            </p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="para">
+                                <img src="images/mixo-6.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seventh content end -->
+
+
+    <!-- eight content -->
+    <!-- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto mt-5">
+                    <div class="head">
+                        <h1 class="mt-4" style="color: rgb(25, 25, 84); font-family: 'Raleway', sans-serif;">Contact us
+                        </h1>
+                    </div>
+                    <div class="para">
+                        <p style="color: rgb(25, 25, 84); font-family: 'Raleway', sans-serif;">
+                            Have questions or inquiries? We're here to help! Reach out to our dedicated team for
+                            personalized assistance. Your satisfaction is our priority. Fill out the form below, and
+                            we'll respond promptly. You can also connect with us via email at nailroom@gmail.com
+                        </p>
+                    </div>
+                    <div class="pd-input-field mt-5">
+                        <form>
+                            <div class="input-group">
+                                <input type="email" class="form-control p-2" placeholder="Enter your email..."
+                                    aria-label="Enter your email..." aria-describedby="button-addon2" required>
+                                <button class="submit btn btn-outline-secondary" type="submit"
+                                    id="button-addon2">Contact
+                                    us</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="images/gif-cu-1-unscreen.gif"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- eight content end -->
+
+
+
+
+    <!-- gallery arts -->
+    <section>
+        <div class="container mt-5" id="gallery">
+            <h1 class="text-center display-4">Nail Room Gallery</h1>
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Gallery Items (Replace the image URLs with your actual nail art images) -->
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-7.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-1166461750-612x612.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-121997979-612x612.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-1289189250-612x612.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-1304745121-612x612.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-1350887247-612x612.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphot-6.jpg" alt="">
+                </div>
+                <div class="col gallery-item">
+                    <img src="images/istockphoto-2.jpg" alt="">
+                </div>
+                <!-- Add more gallery items as needed -->
+        
+            </div>
+        </div>
+        
+    </section>
+    <!-- gallery arts -->
+
+
+
+
+    <!-- feedback form -->
+    <section>
+        <div class="container my-5" id="feedback">
+            <div class="mb-3">
+                <h1 class="text-center display-5">Feedback</h1>
+                <h6 class="text-center">Please Feedback us If you have any queries if you're not satisfied or not. </h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 py-3 mx-auto" id="feedback-form">
+                    <form id="feedbackForm">
+                        <!-- Name Input -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <!-- Rating Input -->
+                        <div class="mb-3">
+                            <label for="rating" class="form-label">Rate Your Experience</label>
+                            <select class="form-select" id="rating" name="rating" required>
+                                <option value="" disabled selected>Select a rating</option>
+                                <option value="5">5 - Excellent</option>
+                                <option value="4">4 - Very Good</option>
+                                <option value="3">3 - Good</option>
+                                <option value="2">2 - Fair</option>
+                                <option value="1">1 - Poor</option>
+                            </select>
+                        </div>
+
+                        <!-- Feedback Textarea -->
+                        <div class="mb-3">
+                            <label for="feedback" class="form-label">Your Feedback</label>
+                            <textarea class="form-control" id="feedback" name="feedback" rows="4" required></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- feedback form -->
+
+
+    <!-- Footer -->
+    <section>
+        <footer class="footer">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="services.html">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">online booking</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online booking</h4>
+                        <ul>
+                            <li><a href="nailart.html">nails art</a></li>
+                            <li><a href="manicure.html">manicure</a></li>
+                            <li><a href="pedicure.html">pedicure</a></li>
+                            <li><a href="#">packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer end -->
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap cdn link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn link for js end -->
+
+    <!-- jQuery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery cdn link end-->
+
+
+    <!-- Javascript link  -->
+    <script src="main.js"></script>
+    <!-- Javascript link end  -->
+
+    <script src="card_js/swiper-bundle.min.js"></script>
+    <script src="card_js/script.js"></script>
+
+
+    <!-- navbar scroll change color -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+                    $(".navbar-fixed-top").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                }
+                else {
+                    $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+                }
+            });
+        });
+    </script>
+    <!-- navbar scroll change color -->
+
+
+</body>
+
+</html>

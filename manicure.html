@@ -1,0 +1,1258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nail Room</title>
+
+
+    <!-- Bootstrap cdn link for css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap cdn link for css end -->
+
+    <!-- Bootstrap cdn link for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap cdn link for icons end -->
+
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts link end -->
+
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS link end -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="card_css/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="card_css/style.css" />
+    <!-- Slider CSS -->
+
+    <!-- Head logo -->
+    <link rel="shortcut icon" href="images/nav-logo-3-removebg-preview.png" type="image/x-icon">
+    <!-- Head logo -->
+
+</head>
+
+<body>
+
+
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader end -->
+
+    <!-- jquery cnd link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery cnd link end -->
+
+
+
+    <!-- nav -->
+    <section>
+
+        <div class="container">
+            <div class="nav-container navbar-fixed-top">
+                <nav>
+                    <ul class="mobile-nav">
+                        <li>
+                            <div class="menu-icon-container">
+                                <div class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="index.html" class="link-logo"></a>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="nailart.html" data-bs-toggle="dropdown">
+                                Catogarios </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="nailart.html#heading-mid"> Nails Art Methods</a>
+                                </li>
+                                <li> <a class="dropdown-item" href="#"> Nails Art &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="nailart.html#Space-nails">Space Art</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#Rainbow-nails">Rainbow Art</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#Skittles-nails">Skittles
+                                                Nails</a></li>
+                                        <li><a class="dropdown-item" href="nailart.html#bride-nails"> Brides Nails</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="nailart.html#barbie-nails">Barbie Nails</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="nailart.html#originated-nails-art">Nail Art
+                                        Originated</a></li>
+                                <li><a class="dropdown-item" href="nailart.html#kids-nailart"> Nail Art Kids </a></li>
+                            </ul>
+                        </li>
+                        <!-- multi level dropdown -->
+                        <li>
+                            <a href="manicure.html" id="nav-anchor">Manicure</a>
+                        </li>
+                        <li>
+                            <a href="pedicure.html" id="nav-anchor">Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="services.html" id="nav-anchor">Services</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" id="nav-anchor">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" id="nav-anchor">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-search"></a>
+                        </li>
+                        <li>
+                            <a href="sign-in.html" class="link-bag"></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- End of navigation menu items -->
+
+                <div class="search-container hide">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <div class="link-close"></div>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="mobile-search-container">
+                    <div class="link-search"></div>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" placeholder="Search nailroom.com">
+                        </form>
+                    </div>
+                    <span class="cancel-btn">Cancel</span>
+
+                    <div class="quick-links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Visiting a Nail Room FAQ</a>
+                            </li>
+                            <li>
+                                <a href="sign-in.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">Sign-up</a>
+                            </li>
+                            <li>
+                                <a href="manicure.html">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="pedicure.html">Pedicure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- nav end -->
+
+    <!-- first content -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto" id="menicure-first-content">
+                    <div class="heading">
+                        <h1 class="display-4">Give Yourself a Manicure</h1>
+                        <h5>Make your nails clean and pretty.</h5>
+                    </div>
+                </div>
+                <!-- carousel -->
+
+                <div class="container_card-meni-pedi swiper">
+                    <div class="slide-container-meni-pedi">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card_carousel-meni-pedi swiper-slide  ">
+                                <div class="image-box">
+                                    <a href="#mn-s-content-3"><img src="images/medical-menicure.jpeg" alt="" /></a>
+                                </div>
+                                <div class="profile-details">
+                                    <div class="name-job">
+                                        <h3 class="name">Medical Manicure</h3>
+                                        <h4 class="job"><a href="#mn-s-content-3">Learn more <i
+                                                    class="bi bi-chevron-right"></i></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_carousel-meni-pedi swiper-slide">
+                                <div class="image-box">
+                                    <a href="#mn-s-content-1"><img src="images/acrylic-mani.jpeg" alt="" /></a>
+                                </div>
+                                <div class="profile-details">
+                                    <div class="name-job">
+                                        <h3 class="name">Acrylic Manicure</h3>
+                                        <h4 class="job"><a href="#mn-s-content-1">Learn more <i
+                                                    class="bi bi-chevron-right"></i></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_carousel-meni-pedi swiper-slide">
+                                <div class="image-box">
+                                    <a href="#mn-s-content-2"> <img src="images/french-mani.jpeg" alt="" /></a>
+                                </div>
+                                <div class="profile-details">
+                                    <div class="name-job">
+                                        <h3 class="name">French Manicure</h3>
+                                        <h4 class="job"><a href="#mn-s-content-2">Learn more <i
+                                                    class="bi bi-chevron-right"></i></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+
+            <!-- carousel end -->
+            <div class="row">
+                <div class="col-lg-8 text-center mt-5 mb-3">
+                    <h1 class="display-4" id="heading-mid">Give yourself manicure just in 5 Minutes.</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 overflow-y-auto" style="height: 1000px;">
+                        <div class="row">
+                            <div class="mn-first-method-top-heading">
+                                <h3>First Method</h3>
+                                <h1>Gettings Your Nails Ready</h1>
+                            </div>
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 1</h4>
+                                </div>
+                                <p>
+                                    <b>(Get your supplies together.)</b> <br>
+                                    To give yourself a gorgeous manicure, make sure you have all the right supplies. You
+                                    might have
+                                    to spend a bit up front, but next time you want to paint your nails, you'll already
+                                    be covered.
+                                    Get the following products
+                                <ul>
+                                    <li>Nail polish remover</li>
+                                    <li>Cotton balls or cotton swabs</li>
+                                    <li>Nails Buffer</li>
+                                    <li>Nails trimmers</li>
+                                    <li>Nails file</li>
+                                    <li>Cuticle or hand cream</li>
+                                    <li>Nail Polish</li>
+                                    <li>Basecoat</li>
+                                    <li>Top coat</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s1.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 2</h4>
+                                </div>
+                                <p>
+                                    <b>Set up your workspace</b> <br>
+                                    Nail polish and remover can damage many surfaces such as cloth, wood finish and
+                                    plastic. Wear an
+                                    expendable t-shirt and no valuable accessories, sit at a desk or table, and protect
+                                    it with
+                                    scrap paper (not newsprint, which smudges). Make sure the table itself and anything
+                                    near it is
+                                    not particularly valuable or important to keep perfect because there might be a
+                                    spatter or spill
+                                    soaking through. You might not want to work near a computer, for instance.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s2.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 3</h4>
+                                </div>
+                                <p>
+                                    <b>(Remove your old nail polish)</b> <br>
+                                    Use nail polish remover and cotton balls or swabs. Some kinds of nail polish remover
+                                    may dry the
+                                    areas on your nails and around them. You may wish to find one that doesn't do this
+                                    as much, but
+                                    do not be concerned unless you have a severe allergic reaction.
+                                    If you have and wish to keep fake nails, such as acrylic, choose a polish that will
+                                    not remove
+                                    them, and don't let it soak much.
+                                    Unless you use it once a month or less, don't use a nail polish remover with acetone
+                                    in it.
+                                    Though acetone will make removing the nail polish easier, it can damage the nails
+                                    themselves.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s3.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 4</h4>
+                                </div>
+                                <p>
+                                    <b>(Cut and file your nails.)</b> <br>
+                                    Use nail clippers and trim your nails. Don't cut them too short; you should be able
+                                    to see at
+                                    least a little of the white tip still, all the way across. Using a nail file, file
+                                    the nail and
+                                    create a smooth and clean shape. Gently drag the file across the nail, rather than
+                                    pushing it.
+                                    Excessive force or sawing back and forth will weaken the nails and cause them to
+                                    break.Pivot the
+                                    hand with the file through each stroke to make a smooth curve rather than angles. Do
+                                    not file
+                                    them too short: just clean up any points or roughness left by the clippers.
+                                <ul>
+                                    <li>
+                                        If you want to remove fake nails, perhaps because they look odd from having
+                                        grown out too
+                                        far, here's how to do that.
+                                    </li>
+                                    <li>
+                                        Do not round the corners down into the sides of the nail bed. This can cause the
+                                        nail to
+                                        become ingrown. Be particularly careful with the big toe, which, perhaps due to
+                                        shoes, is
+                                        more prone to ingrowing.
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s4.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 5</h4>
+                                </div>
+                                <p>
+                                    <b>(Buff your nails)</b> <br>
+                                    Using a white block of a stick-type nail buffer, or a pad-type nail buffer and
+                                    buffing powder,
+                                    buff the surface of the nail a little bit to even out the surface and to smooth out
+                                    ridges.
+                                    Remember not to buff too much; thinning it too much will weaken it.[4] Perfect
+                                    edge-to-edge
+                                    flatness is not practical or necessary. A soft, flexible buffer will more easily
+                                    buff the sides
+                                    of the nail along with the middle.
+                                    You may wish to buff your nails after pushing back the cuticles if there is some
+                                    residue where
+                                    the cuticles used to cover, in order to scrape or grind it off in the process. Being
+                                    thin, soft,
+                                    and not firmly attached, it should come off easily.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s5.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 6</h4>
+                                </div>
+                                <p>
+                                    <b>(Soak your nails.)</b> <br>
+                                    Get a bowl or stopper the sink and fill it with warm (not hot!) water and a few
+                                    drops of soap.
+                                    Soak your hands only for a few minutes. The water and soap will help to loosen dirt,
+                                    dead skin,
+                                    and any dust left over from filing and buffing, and soften cuticles. Use a nail
+                                    brush to gently
+                                    clean your nails and the skin around them. Gently scrape under your nails if
+                                    necessary to remove
+                                    dirt. If you want your nails and cuticles really manageable, you can soak them in
+                                    Dawn
+                                    dishwasher soap
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s6.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 7</h4>
+                                </div>
+                                <p>
+                                    <b>(Prepare your cuticles.)</b> <br>
+                                    Dry your nails and apply a cuticle cream. Using a cuticle pusher, also called an
+                                    orange stick,
+                                    gently push back the cuticle. Do not force them back, and never cut your cuticles.
+                                    Even if the
+                                    equipment is sterile, removing the cuticle can cause infection and leaves the
+                                    then-less-protected margin of the skin vulnerable. Wipe off the excess cream with a
+                                    tissue or
+                                    towel in the direction that you pushed.
+                                <ul>
+                                    <li>
+                                        A small binder clip is great for pushing back cuticles. Make sure it's clean and
+                                        well-formed, without sharp edges. Fold the wire grips to lay flat against each
+                                        other. Hold
+                                        the clip between the thumb and forefinger or middle finger by the flat metal
+                                        sides, with the
+                                        grips passing between in the direction of the little finger tip; the flat back
+                                        piece
+                                        extending past the thumb and forefinger. Now you're ready to push back the
+                                        cuticles on the
+                                        other hand (switch later to do the one currently holding the clip).
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <img src="images/mn-m1-s7.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto">
+                                <div class="mn-first-method-heading">
+                                    <h4>Step 8</h4>
+                                </div>
+                                <p>
+                                    <b>Apply hand cream or lotion.</b> <br>
+                                    Take a lotion or hand cream and massage it into your hands. If you have very dry
+                                    skin use an
+                                    intensive lotion, if not, any lotion will do. Be sure to rub it into and around your
+                                    nails and
+                                    let it soak in for 30 minutes or longer.
+                                <ul>
+                                    <li>This is as well done after painting the nails and allowing them to dry
+                                        thoroughly as before
+                                        painting. For very dry skin, apply some greasy lotion and sleep with cheap
+                                        cotton gloves
+                                        over your hands to allow it to remain on and work for a long time without
+                                        keeping you from
+                                        productive activities.</li>
+                                    <li>Nail polish/lacquer will not stick to nails with moisturizer on them, so take a
+                                        Q-tip dipped
+                                        in nail polish remover and quickly wipe the nails to remove the lotion. Wipe
+                                        excess remover
+                                        off promptly to mitigate nail damage.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto mx-auto pb-5">
+                                <img src="images/mn-m1-s8.jpeg"
+                                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <div class="text-center" id="pd-small-content">
+                            <h1>Contact Here </h1>
+                            <p>
+                                If you have any queries please contact us.
+                            </p>
+                        </div>
+                        <div class="pd-input-field my-4">
+                            <form>
+                                <div class="input-group">
+                                    <input type="email" class="form-control p-2" placeholder="Enter your email..."
+                                        aria-label="Enter your email..." aria-describedby="button-addon2">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Contact
+                                        us</button>
+                                </div>
+                            </form>
+                        </div>
+                        <img src="images/about-us.gif"
+                            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                            alt="">
+
+                        <div class="Public Reviewes">
+                            <div class="review-container">
+                                <div class="review">
+                                    <img src="images/Wajahat.png" alt="User 1" class="profile-picture">
+                                    <p class="review-text">"Exceptional pedicure service! Skilled technicians, clean
+                                        facilities, and a variety of spa options. Walked out feeling refreshed and
+                                        polished. Highly recommend for a soothing pampering session!"</p>
+                                    <div class="rating">Rating: ⭐⭐⭐⭐⭐ 5/5</div>
+                                </div>
+
+                                <div class="review">
+                                    <img src="images/roohullah.jpg" alt="User 1" class="profile-picture">
+                                    <p class="review-text">"Stunning nails that make a statement."</p>
+                                    <div class="rating">Rating: ⭐⭐⭐ 5/3</div>
+                                </div>
+
+                                <div class="review">
+                                    <img src="images/hamza.png" alt="User 2" class="profile-picture">
+                                    <p class="review-text">"Nail Room transforms nails into masterpieces! Diverse
+                                        designs, helpful tutorials. The go-to for vibrant and stylish nail expressions."
+                                    </p>
+                                    <div class="rating">Rating : ⭐⭐⭐⭐ 5/4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- first content end -->
+
+    <!-- medical manicure -->
+    <section>
+        <div class="container" id="mn-s-content-1">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Medical Manicure</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 300px;">
+                        <div class="para">
+                            <p>
+                                Performing a medical manicure involves special care to ensure the health and safety of
+                                the nails and surrounding skin. Here's a basic method for a medical manicure:
+                                <br>
+                            <h6 class="mt-5 fw-bold">Materials Needed</h6><br>
+                            <ol>
+                                <li>
+                                    Nail clippers
+                                </li>
+                                <li>
+                                    Nail file
+                                </li>
+                                <li>
+                                    Cuticle pusher
+                                </li>
+                                <li>
+                                    Cuticle trimmer
+                                </li>
+                                <li>
+                                    Buffing block
+                                </li>
+                                <li>
+                                    Gentle exfoliating scrub
+                                </li>
+                                <li>
+                                    Moisturizing lotion or oil
+                                </li>
+                                <li>
+                                    Antiseptic solution
+                                </li>
+                                <li>
+                                    Cotton balls
+                                </li>
+                                <li>
+                                    Warm water
+                                </li>
+                                <li>
+                                    Towel
+                                </li>
+                            </ol>
+                            <h6 class="my-3 fw-bold">Procedure:</h6>
+                            <ol>
+                                <li>
+                                    <h6 class="mt-5 fw-bold">Prepare the Work Area:</h6>
+                                    <ul>
+                                        <li>
+                                            Ensure that your tools and the work surface are clean and sanitized.
+                                        </li>
+                                        <li>
+                                            Have all the necessary materials within reach.
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Remove Nail Polish (if applicable):</h6>
+                                    <ul>
+                                        <li>
+                                            Use a non-acetone nail polish remover to gently remove any existing nail
+                                            polish.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Trim and Shape Nails:</h6>
+                                    <ul>
+                                        <li>
+                                            Use nail clippers to trim the nails to the desired length.
+                                        </li>
+                                        <li>
+                                            Shape the nails using a nail file. File in one direction to prevent nail
+                                            damage.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Soak Nails:</h6>
+                                    <ul>
+                                        <li>
+                                            Soak the client's hands in warm, soapy water for about 5-10 minutes. This
+                                            helps to soften the nails and cuticles.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Push Back Cuticles:</h6>
+                                    <ul>
+                                        <li>
+                                            Use a cuticle pusher to gently push back the cuticles. This should be done
+                                            carefully to avoid causing any damage.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Trim Cuticles:</h6>
+                                    <ul>
+                                        <li>
+                                            Trim any excess or dead cuticle using a cuticle trimmer. Be cautious not to
+                                            cut too much, as this can lead to infection.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Exfoliate Hands and Nails:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a gentle exfoliating scrub to the hands and nails, massaging in
+                                            circular motions. This helps remove dead skin cells.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Buff Nails:</h6>
+                                    <ul>
+                                        <li>
+                                            Use a buffing block to smooth the surface of the nails. This also helps in
+                                            promoting blood circulation to the nail bed.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Cleanse and Disinfect:</h6>
+                                    <ul>
+                                        <li>
+                                            Cleanse the nails and surrounding skin with an antiseptic solution to
+                                            prevent infection.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Moisturize:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a generous amount of moisturizing lotion or oil to the hands and
+                                            nails. Massage it in to promote hydration.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Final Touch:</h6>
+                                    <ul>
+                                        <li>
+                                            If the client desires, apply a clear nail polish or a nail strengthening
+                                            treatment for added protection.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Educate the Client:</h6>
+                                    <ul>
+                                        <li>
+                                            Provide aftercare instructions to the client, emphasizing proper nail and
+                                            cuticle care to maintain the health of their nails.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <p class="my-5">
+                                Remember, if you are not a licensed professional, it's important to follow local
+                                regulations and consider referring individuals to a qualified nail technician or
+                                healthcare professional for specific medical conditions or concerns.
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-5">
+                    <img src="images/medical-menicure.jpeg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- medical manicure end -->
+
+    <!-- Acrylic Manicure -->
+    <section>
+        <div class="container" id="mn-s-content-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">Acrylic Manicure</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 300px;">
+                        <div class="para">
+                            <p>
+                                Creating an acrylic manicure involves a series of steps, and it's essential to follow
+                                proper procedures for a professional and long-lasting result. Here's a simple method for
+                                doing an acrylic manicure:
+                            <h6 class="my-4 fw-bold">Materials Needed:</h6>
+                            <ol>
+                                <li>
+                                    Acrylic nail kit (includes acrylic powder, acrylic liquid, and acrylic brushes)
+                                </li>
+                                <li>
+                                    Nail primer
+                                </li>
+                                <li>
+                                    Nail tips or forms
+                                </li>
+                                <li>
+                                    Nail file and buffer
+                                </li>
+                                <li>
+                                    Cuticle pusher
+                                </li>
+                                <li>
+                                    Nail dehydrator
+                                </li>
+                                <li>
+                                    Acetone or nail polish remover
+                                </li>
+                                <li>
+                                    Paper towels or lint-free wipes
+                                </li>
+                                <li>
+                                    UV or LED lamp (optional)
+                                </li>
+                                <li>
+                                    Nail polish and top coat (optional)
+                                </li>
+                            </ol>
+                            <h6 class="my-5 fw-bold">Procedure:</h6>
+                            <ol>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Prepare the Nails:</h6>
+                                    <ul>
+                                        <li>
+                                            Remove any existing nail polish using acetone or nail polish remover.
+                                        </li>
+                                        <li>
+                                            Shape the nails using a nail file according to the client's preference.
+                                        </li>
+                                        <li>
+                                            Gently push back the cuticles using a cuticle pusher.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Apply Nail Tips (if using):</h6>
+                                    <ul>
+                                        <li>
+                                            Select the appropriate size nail tips for each finger.
+                                        </li>
+                                        <li>
+                                            Apply a small amount of nail glue to the tips and press them onto the
+                                            natural nails.
+                                        </li>
+                                        <li>
+                                            Trim and shape the tips to the desired length.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Trim and Shape Acrylic Forms (if using):</h6>
+                                    <ul>
+                                        <li>
+                                            If using acrylic forms, trim them to fit the natural nails.
+                                        </li>
+                                        <li>
+                                            Apply the forms under the natural nails, ensuring they are secure.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Dehydrate and Prime:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a nail dehydrator to remove excess oils and prepare the nails for
+                                            acrylic application.
+                                        </li>
+                                        <li>
+                                            Apply a thin layer of nail primer to promote adhesion.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Mix Acrylic Powder and Liquid:</h6>
+                                    <ul>
+                                        <li>
+                                            Dip the acrylic brush into the acrylic liquid and then into the acrylic
+                                            powder.
+                                        </li>
+                                        <li>
+                                            Create a bead of acrylic by placing the brush near the cuticle area and
+                                            gently pressing the brush to release the bead onto the natural nail or nail
+                                            tip.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Sculpt the Acrylic:</h6>
+                                    <ul>
+                                        <li>
+                                            Use the brush to shape and mold the acrylic on the nail.
+                                        </li>
+                                        <li>
+                                            Work quickly but precisely to achieve the desired shape and thickness.
+                                        </li>
+                                        <li>
+                                            Repeat this process for each nail.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Shape and Buff:</h6>
+                                    <ul>
+                                        <li>
+                                            Shape the acrylic nails using a nail file to achieve the desired length and
+                                            shape.
+                                        </li>
+                                        <li>
+                                            Smooth the surface with a buffer for a polished finish.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Cleanse and Polish (optional):</h6>
+                                    <ul>
+                                        <li>
+                                            Cleanse the nails using a lint-free wipe and nail cleanser.
+                                        </li>
+                                        <li>
+                                            Optionally, apply nail polish and top coat for a finished look.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold"> Moisturize:</h6>
+                                    <ul>
+                                        <li>
+                                            Finish by moisturizing the cuticles and hands.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <span class="my-5">
+                                Remember to follow safety guidelines and use proper ventilation when working with
+                                acrylic products. Additionally, practice good hygiene by sanitizing your tools before
+                                and after each use.
+                            </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-5">
+                    <img src="images/acrylic-mani.jpeg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- Acrylic Manicure -->
+
+    <!-- french manicure -->
+    <section>
+        <div class="container" id="mn-s-content-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h1 class="my-5 display-4">French Manicure</h1>
+                    </div>
+
+                    <div class="overflow-y-auto" style="height: 300px;">
+                        <div class="para">
+                            <p>
+                                Performing a French manicure involves creating a classic and elegant look with a natural
+                                base and white tips. Here's a step-by-step method to achieve a French manicure:
+                            <h6 class="my-5 fw-bold">Materials Needed:</h6>
+                            <ol>
+                                <li>
+                                    Base coat
+                                </li>
+                                <li>
+                                    Natural or nude-colored nail polish
+                                </li>
+                                <li>
+                                    White nail polish or French manicure striping tape
+                                </li>
+                                <li>
+                                    Clear top coat
+                                </li>
+                                <li>
+                                    Nail polish remover
+                                </li>
+                                <li>
+                                    Cotton swabs or precision brushes
+                                </li>
+                                <li>
+                                    French manicure pen (optional)
+                                </li>
+                                <li>
+                                    Nail file and buffer
+                                </li>
+                            </ol>
+                            <h6 class="my-5 fw-bold">Procedure:</h6>
+                            <ol>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Start with Clean Nails:</h6>
+                                    <ul>
+                                        <li>
+                                            Remove any existing nail polish using a non-acetone nail polish remover.
+                                        </li>
+                                        <li>
+                                            Shape the nails using a nail file and gently push back the cuticles.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Apply Base Coat:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply a thin layer of base coat to protect the natural nails and improve
+                                            polish adhesion.
+                                        </li>
+                                        <li>
+                                            Allow the base coat to dry completely.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Apply Natural or Nude Polish:</h6>
+                                    <ul>
+                                        <li>
+                                            Apply one or two coats of a natural or nude-colored polish as the base.
+                                            Allow each coat to dry thoroughly before applying the next.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Create the White Tips:</h6>
+                                    <ul>
+                                        <li>
+                                            Option 1: Use French Manicure Striping Tape
+                                        </li>
+                                        <li>
+                                            Place French manicure striping tape just below the tips of the nails to
+                                            create a guide for the white polish.
+                                        </li>
+                                        <li>
+                                            Apply white nail polish above the tape, creating a clean and even line.
+                                        </li>
+                                        <li>
+                                            Allow the white polish to dry before carefully removing the striping tape.
+                                        </li>
+                                        <li>
+                                            Option 2: Freehand with White Polish
+                                        </li>
+                                        <li>
+                                            If you have a steady hand, freehand the white tips using white nail polish
+                                            or a French manicure pen.
+                                        </li>
+                                        <li>
+                                            Start at the center of the nail and extend towards the sides, creating a
+                                            natural-looking curve.
+                                        </li>
+                                        <li>
+                                            Allow the white polish to dry completely.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Clean Up Edges:</h6>
+                                    <ul>
+                                        <li>
+                                            If needed, use a precision brush or cotton swab dipped in nail polish
+                                            remover to clean up any uneven edges or mistakes.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Apply Top Coat:</h6>
+                                    <ul>
+                                        <li>
+                                            Once the white polish is dry and well-defined, apply a clear top coat to
+                                            seal and protect the entire nail.
+                                        </li>
+                                        <li>
+                                            The top coat will add shine and enhance the longevity of the manicure.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6 class="my-3 fw-bold">Final Touches:</h6>
+                                    <ul>
+                                        <li>
+                                            Allow the top coat to dry completely before performing any additional
+                                            activities.
+                                        </li>
+                                        <li>
+                                            Optionally, apply cuticle oil or moisturizer to keep the cuticles and
+                                            surrounding skin hydrated.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <span class="my-5 ">Enjoy your classic and timeless French manicure! Remember to take your
+                                time during each step to achieve a professional-looking result. </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-5">
+                    <img src="images/french-mani.jpeg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- french manicure end -->
+
+
+    <!-- Footer -->
+    <section>
+        <footer class="footer">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="services.html">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">online booking</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online booking</h4>
+                        <ul>
+                            <li><a href="nailart.html">nails art</a></li>
+                            <li><a href="manicure.html">manicure</a></li>
+                            <li><a href="pedicure.html">pedicure</a></li>
+                            <li><a href="#">packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer end -->
+
+
+
+
+
+    <!-- Bootstrap cdn link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn link for js end -->
+
+    <!-- jQuery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery cdn link end-->
+
+
+    <!-- Javascript link  -->
+    <script src="main.js"></script>
+    <!-- Javascript link end  -->
+
+    <script src="card_js/swiper-bundle.min.js"></script>
+    <script src="card_js/script.js"></script>
+
+    <!-- navbar scroll change color -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+                    $(".navbar-fixed-top").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                }
+                else {
+                    $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+                }
+            });
+        });
+    </script>
+    <!-- navbar scroll change color -->
+
+
+</body>
+
+</html>
